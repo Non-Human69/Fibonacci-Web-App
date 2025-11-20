@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+
+  <data name="SiteTitle" xml:space="preserve"><value>Fibonacci Web App</value></data>
+  <data name="HomeLead" xml:space="preserve"><value>Ontdek Fibonacci-getallen — controleer of een waarde Fibonacci is, haal een Fibonacci-waarde op via index, bouw getallen uit Fibonacci-combinaties of lijst Fibonacci-getallen in een bereik en hun som.</value></data>
+
+  <data name="Button_CheckNumber" xml:space="preserve"><value>Controleer een getal</value></data>
+  <data name="Button_GetByIndex" xml:space="preserve"><value>Ophalen op index</value></data>
+  <data name="Button_Combination" xml:space="preserve"><value>Combinatie</value></data>
+  <data name="Button_RangeSum" xml:space="preserve"><value>Bereik &amp; Som</value></data>
+
+  <data name="QuickFactsTitle" xml:space="preserve"><value>Snel feiten</value></data>
+  <data name="QuickFact1" xml:space="preserve"><value>Razor Pages met een eenvoudige UI</value></data>
+  <data name="QuickFact2" xml:space="preserve"><value>Grote gehele getallen ondersteund tot index 9999</value></data>
+  <data name="QuickFact3" xml:space="preserve"><value>Grootste mogelijke getal: Duocenti-novemdecillion</value></data>
+  <data name="QuickFact4" xml:space="preserve"><value>Dit is een getal met 616 nullen</value></data>
+
+  <data name="Card_CheckTitle" xml:space="preserve"><value>Fibonacci controleren</value></data>
+  <data name="Card_CheckText" xml:space="preserve"><value>Snel bepalen of een getal deel uitmaakt van de Fibonacci-reeks.</value></data>
+  <data name="Card_CheckButton" xml:space="preserve"><value>Naar de controle</value></data>
+
+  <data name="Card_GetTitle" xml:space="preserve"><value>Ophalen op index</value></data>
+  <data name="Card_GetText" xml:space="preserve"><value>Haal het Fibonacci-getal op op een gegeven index (ondersteunt grote indices met BigInteger).</value></data>
+  <data name="Card_GetButton" xml:space="preserve"><value>Haal op</value></data>
+
+  <data name="Card_CombinationTitle" xml:space="preserve"><value>Combinatie</value></data>
+  <data name="Card_CombinationText" xml:space="preserve"><value>Vind welke Fibonacci-getallen bij elkaar opgeteld het doel vormen (Zeckendorf-stijl).</value></data>
+  <data name="Card_CombinationButton" xml:space="preserve"><value>Bekijk combinatie</value></data>
+
+  <data name="Card_RangeTitle" xml:space="preserve"><value>Bereik &amp; Som</value></data>
+  <data name="Card_RangeText" xml:space="preserve"><value>Toon Fibonacci-getallen in een bereik en bereken hun som.</value></data>
+  <data name="Card_RangeButton" xml:space="preserve"><value>Bekijk bereik</value></data>
+</root>

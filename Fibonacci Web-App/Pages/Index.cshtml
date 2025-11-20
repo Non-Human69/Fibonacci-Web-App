@@ -1,0 +1,75 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container py-5">
+    <div class="row align-items-center mb-4">
+        <div class="col-md-8">
+            <h1 class="display-5 fw-bold">Fibonacci Web App</h1>
+            <p class="lead text-muted">Explore Fibonacci numbers — check if a value is Fibonacci, get a Fibonacci value by index, build numbers from Fibonacci combinations, or list Fibonacci numbers in a range and their sum.</p>
+            <p>
+                <a asp-page="/FiboPages/FibonacciCheckerPage" class="btn btn-primary me-2">Check a Number</a>
+                <a asp-page="/FiboPages/FibonacciSingleGetPage" class="btn btn-outline-primary me-2">Get by Index</a>
+                <a asp-page="/FiboPages/FibonacciCombinationPage" class="btn btn-outline-secondary me-2">Combination</a>
+                <a asp-page="/FiboPages/FibonacciRangePage" class="btn btn-outline-success">Range &amp; Sum</a>
+            </p>
+        </div>
+        <div class="col-md-4 text-md-end">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h6 class="card-title mb-2">Quick facts</h6>
+                    <ul class="list-unstyled mb-0 text-muted">
+                        <li>Razor Pages with a clean UI</li>
+                        <li>Big integers supported up to index 9999</li>
+                        <li>Biggest possible number: Duocenti-novemdecillion</li>
+                        <li>This is a number with 616 zero's</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Check Fibonacci</h5>
+                    <p class="card-text text-muted">Quickly determine whether a number is part of the Fibonacci sequence.</p>
+                    <a asp-page="/FiboPages/FibonacciCheckerPage" class="btn btn-sm btn-primary">Go to Checker</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Get by Index</h5>
+                    <p class="card-text text-muted">Retrieve the Fibonacci number at a given index (supports large indices with BigInteger).</p>
+                    <a asp-page="/FiboPages/FibonacciSingleGetPage" class="btn btn-sm btn-outline-primary">Get Number</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Combination</h5>
+                    <p class="card-text text-muted">Find which Fibonacci numbers combine to form a target value (Zeckendorf-style).</p>
+                    <a asp-page="/FiboPages/FibonacciCombinationPage" class="btn btn-sm btn-outline-secondary">View Combination</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Range &amp; Sum</h5>
+                    <p class="card-text text-muted">List Fibonacci numbers in a range and compute their sum.</p>
+                    <a asp-page="/FiboPages/FibonacciRangePage" class="btn btn-sm btn-outline-success">Explore Range</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

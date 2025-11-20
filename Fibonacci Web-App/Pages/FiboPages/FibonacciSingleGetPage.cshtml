@@ -1,0 +1,47 @@
+﻿@page
+@using System.Numerics
+@model Fibonacci_Web_App.Pages.FiboPages.FibonacciSingleGetPageModel
+@{
+    ViewData["Title"] = "Fibonacci Get Number";
+}
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="post" asp-page-handler="Check" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="mb-3">
+                <label asp-for="inputNumber" class="form-label">Index (n-> max number is 9999)</label>
+                <input asp-for="inputNumber" class="form-control" placeholder="Enter non-negative integer index" />
+                <span asp-validation-for="inputNumber" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Get</button>
+        </form>
+    </div>
+</div>
+
+@try
+{
+    var fib = Model.FibonacciRepository.GetFibonacciNumber(Model.inputNumber);
+    string? outputStr = Model.NumericWordsConverterRepository.ConvertToWords(fib);
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Result</h5>
+            <p class="card-text"><strong>@Model.inputNumber</strong> → <code>@fib</code></p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Result</h5>
+            <p class="card-text"><strong>@outputStr</strong></p>
+        </div>
+    </div>
+}
+catch
+{
+    <div class="alert alert-danger" role="alert">
+        Could not retrieve Fibonacci number for <strong>@Model.inputNumber</strong>.
+    </div>
+}

@@ -1,0 +1,2558 @@
+{
+  "zeroTo99": [
+    "nul",
+    "een",
+    "twee",
+    "drie",
+    "vier",
+    "vijf",
+    "zes",
+    "zeven",
+    "acht",
+    "negen",
+    "tien",
+    "elf",
+    "twaalf",
+    "dertien",
+    "veertien",
+    "vijftien",
+    "zestien",
+    "zeventien",
+    "achttien",
+    "negentien",
+    "twintig",
+    "eenentwintig",
+    "tweeentwintig",
+    "drieentwintig",
+    "vierentwintig",
+    "vijfentwintig",
+    "zesentwintig",
+    "zevenentwintig",
+    "achtentwintig",
+    "negenentwintig",
+    "dertig",
+    "eenendertig",
+    "tweeendertig",
+    "drieendertig",
+    "vierendertig",
+    "vijfendertig",
+    "zesendertig",
+    "zevenendertig",
+    "achtendertig",
+    "negenendertig",
+    "veertig",
+    "eenenveertig",
+    "tweeenveertig",
+    "drieenveertig",
+    "vierenveertig",
+    "vijfenveertig",
+    "zesenveertig",
+    "zevenenveertig",
+    "achtenveertig",
+    "negenenveertig",
+    "vijftig",
+    "eenenvijftig",
+    "tweeenvijftig",
+    "drieenvijftig",
+    "vierenvijftig",
+    "vijfenvijftig",
+    "zesenvijftig",
+    "zevenenvijftig",
+    "achtenvijftig",
+    "negenenvijftig",
+    "zestig",
+    "eenenzestig",
+    "tweeenzestig",
+    "drieenzestig",
+    "vierenzestig",
+    "vijfenzestig",
+    "zesenzestig",
+    "zevenenzestig",
+    "achtenzestig",
+    "negenenzestig",
+    "zeventig",
+    "eenenzeventig",
+    "tweeenzeventig",
+    "drieenzeventig",
+    "vierenzeventig",
+    "vijfenzeventig",
+    "zesenzeventig",
+    "zevenenzeventig",
+    "achtenzeventig",
+    "negenenzeventig",
+    "tachtig",
+    "eenentachtig",
+    "tweeentachtig",
+    "drieentachtig",
+    "vierentachtig",
+    "vijfentachtig",
+    "zesentachtig",
+    "zevenentachtig",
+    "achtentachtig",
+    "negenentachtig",
+    "negentig",
+    "eenennegentig",
+    "tweeennegentig",
+    "drieennegentig",
+    "vierennegentig",
+    "vijfennegentig",
+    "zesennegentig",
+    "zevenennegentig",
+    "achtennegentig",
+    "negenennegentig"
+  ],
+  "hundred": "honderd",
+  "thousand": "duizend",
+  "rest": [
+    {
+      "name": "duizend",
+      "power": 3
+    },
+    {
+      "name": "miljoen",
+      "power": 6
+    },
+    {
+      "name": "biljoen",
+      "power": 12
+    },
+    {
+      "name": "triljoen",
+      "power": 18
+    },
+    {
+      "name": "quadriljard",
+      "power": 15
+    },
+    {
+      "name": "quintiljoen",
+      "power": 18
+    },
+    {
+      "name": "sextiljard",
+      "power": 21
+    },
+    {
+      "name": "septiljoen",
+      "power": 24
+    },
+    {
+      "name": "octiljard",
+      "power": 27
+    },
+    {
+      "name": "noniljoen",
+      "power": 30
+    },
+    {
+      "name": "deciljard",
+      "power": 33
+    },
+    {
+      "name": "undeciljoen",
+      "power": 36
+    },
+    {
+      "name": "duodeciljard",
+      "power": 39
+    },
+    {
+      "name": "tredeciljoen",
+      "power": 42
+    },
+    {
+      "name": "quattuordeciljard",
+      "power": 45
+    },
+    {
+      "name": "quindeciljoen",
+      "power": 48
+    },
+    {
+      "name": "sexdeciljard",
+      "power": 51
+    },
+    {
+      "name": "septendeciljoen",
+      "power": 54
+    },
+    {
+      "name": "octodeciljard",
+      "power": 57
+    },
+    {
+      "name": "novemdeciljoen",
+      "power": 60
+    },
+    {
+      "name": "vigintiljard",
+      "power": 63
+    },
+    {
+      "name": "unvigintiljoen",
+      "power": 66
+    },
+    {
+      "name": "duovigintiljard",
+      "power": 69
+    },
+    {
+      "name": "trevigintiljoen",
+      "power": 72
+    },
+    {
+      "name": "quattuorvigintiljard",
+      "power": 75
+    },
+    {
+      "name": "quinvigintiljoen",
+      "power": 78
+    },
+    {
+      "name": "sexvigintiljard",
+      "power": 81
+    },
+    {
+      "name": "septenvigintiljoen",
+      "power": 84
+    },
+    {
+      "name": "octovigintiljard",
+      "power": 87
+    },
+    {
+      "name": "novemvigintiljoen",
+      "power": 90
+    },
+    {
+      "name": "trigintiljard",
+      "power": 93
+    },
+    {
+      "name": "untrigintiljoen",
+      "power": 96
+    },
+    {
+      "name": "duotrigintiljard",
+      "power": 99
+    },
+    {
+      "name": "googol",
+      "power": 100
+    },
+    {
+      "name": "tretrigintiljoen",
+      "power": 102
+    },
+    {
+      "name": "quattuortrigintiljard",
+      "power": 105
+    },
+    {
+      "name": "quintrigintiljoen",
+      "power": 108
+    },
+    {
+      "name": "sextrigintiljard",
+      "power": 111
+    },
+    {
+      "name": "septentrigintiljoen",
+      "power": 114
+    },
+    {
+      "name": "octotrigintiljard",
+      "power": 117
+    },
+    {
+      "name": "novemtrigintiljoen",
+      "power": 120
+    },
+    {
+      "name": "centiljard",
+      "power": 303
+    },
+    {
+      "name": "uncentiljoen",
+      "power": 306
+    },
+    {
+      "name": "duocentiljard",
+      "power": 309
+    },
+    {
+      "name": "trecentiljoen",
+      "power": 312
+    },
+    {
+      "name": "quattuorcentiljard",
+      "power": 315
+    },
+    {
+      "name": "quincentiljoen",
+      "power": 318
+    },
+    {
+      "name": "sexcentiljard",
+      "power": 321
+    },
+    {
+      "name": "septencentiljoen",
+      "power": 324
+    },
+    {
+      "name": "octocentiljard",
+      "power": 327
+    },
+    {
+      "name": "novemcentiljoen",
+      "power": 330
+    },
+    {
+      "name": "decicentiljard",
+      "power": 333
+    },
+    {
+      "name": "undecicentiljoen",
+      "power": 336
+    },
+    {
+      "name": "duodecicentiljard",
+      "power": 339
+    },
+    {
+      "name": "tredecicentiljoen",
+      "power": 342
+    },
+    {
+      "name": "quattuordecicentiljard",
+      "power": 345
+    },
+    {
+      "name": "quindecicentiljoen",
+      "power": 348
+    },
+    {
+      "name": "sexdecicentiljard",
+      "power": 351
+    },
+    {
+      "name": "septendecicentiljoen",
+      "power": 354
+    },
+    {
+      "name": "octodecicentiljard",
+      "power": 357
+    },
+    {
+      "name": "novemdecicentiljoen",
+      "power": 360
+    },
+    {
+      "name": "viginticentiljard",
+      "power": 363
+    },
+    {
+      "name": "unviginticentiljoen",
+      "power": 366
+    },
+    {
+      "name": "duoviginticentiljard",
+      "power": 369
+    },
+    {
+      "name": "treviginticentiljoen",
+      "power": 372
+    },
+    {
+      "name": "quattuorviginticentiljard",
+      "power": 375
+    },
+    {
+      "name": "quinviginticentiljoen",
+      "power": 378
+    },
+    {
+      "name": "sexviginticentiljard",
+      "power": 381
+    },
+    {
+      "name": "septenviginticentiljoen",
+      "power": 384
+    },
+    {
+      "name": "octoviginticentiljard",
+      "power": 387
+    },
+    {
+      "name": "novemviginticentiljoen",
+      "power": 390
+    },
+    {
+      "name": "triginticentiljard",
+      "power": 393
+    },
+    {
+      "name": "untriginticentiljoen",
+      "power": 396
+    },
+    {
+      "name": "duotriginticentiljard",
+      "power": 399
+    },
+    {
+      "name": "tretriginticentiljoen",
+      "power": 402
+    },
+    {
+      "name": "quattuortriginticentiljard",
+      "power": 405
+    },
+    {
+      "name": "quintriginticentiljoen",
+      "power": 408
+    },
+    {
+      "name": "sextriginticentiljard",
+      "power": 411
+    },
+    {
+      "name": "septentriginticentiljoen",
+      "power": 414
+    },
+    {
+      "name": "octotriginticentiljard",
+      "power": 417
+    },
+    {
+      "name": "novemtriginticentiljoen",
+      "power": 420
+    },
+    {
+      "name": "quadraginticentiljard",
+      "power": 423
+    },
+    {
+      "name": "unquadraginticentiljoen",
+      "power": 426
+    },
+    {
+      "name": "duoquadraginticentiljard",
+      "power": 429
+    },
+    {
+      "name": "trequadraginticentiljoen",
+      "power": 432
+    },
+    {
+      "name": "quattuorquadraginticentiljard",
+      "power": 435
+    },
+    {
+      "name": "quinquadraginticentiljoen",
+      "power": 438
+    },
+    {
+      "name": "sexquadraginticentiljard",
+      "power": 441
+    },
+    {
+      "name": "septonquadraginticentiljoen",
+      "power": 444
+    },
+    {
+      "name": "octoquadraginticentiljard",
+      "power": 447
+    },
+    {
+      "name": "novemquadraginticentiljoen",
+      "power": 450
+    },
+    {
+      "name": "quinquaginticentiljard",
+      "power": 453
+    },
+    {
+      "name": "unquinquaginticentiljoen",
+      "power": 456
+    },
+    {
+      "name": "duoquinquaginticentiljard",
+      "power": 459
+    },
+    {
+      "name": "trequinquaginticentiljoen",
+      "power": 462
+    },
+    {
+      "name": "quattuorquinquaginticentiljard",
+      "power": 465
+    },
+    {
+      "name": "quinquinquaginticentiljoen",
+      "power": 468
+    },
+    {
+      "name": "sexquinquaginticentiljard",
+      "power": 471
+    },
+    {
+      "name": "septenquinquaginticentiljoen",
+      "power": 474
+    },
+    {
+      "name": "octoquinquaginticentiljard",
+      "power": 477
+    },
+    {
+      "name": "novemquinquaginticentiljoen",
+      "power": 480
+    },
+    {
+      "name": "sexaginticentiljard",
+      "power": 483
+    },
+    {
+      "name": "unsexaginticentiljoen",
+      "power": 486
+    },
+    {
+      "name": "duosexaginticentiljard",
+      "power": 489
+    },
+    {
+      "name": "tresexaginticentiljoen",
+      "power": 492
+    },
+    {
+      "name": "quattuorsexaginticentiljard",
+      "power": 495
+    },
+    {
+      "name": "quinsexaginticentiljoen",
+      "power": 498
+    },
+    {
+      "name": "sexsexaginticentiljard",
+      "power": 501
+    },
+    {
+      "name": "septensexaginticentiljoen",
+      "power": 504
+    },
+    {
+      "name": "octosexaginticentiljard",
+      "power": 507
+    },
+    {
+      "name": "novemsexaginticentiljoen",
+      "power": 510
+    },
+    {
+      "name": "septuagintacentiljard",
+      "power": 513
+    },
+    {
+      "name": "unseptuagintacentiljoen",
+      "power": 516
+    },
+    {
+      "name": "duoseptuagintacentiljard",
+      "power": 519
+    },
+    {
+      "name": "treseptuagintacentiljoen",
+      "power": 522
+    },
+    {
+      "name": "quattuorseptuagintacentiljard",
+      "power": 525
+    },
+    {
+      "name": "quinseptuagintacentiljoen",
+      "power": 528
+    },
+    {
+      "name": "sexseptuagintacentiljard",
+      "power": 531
+    },
+    {
+      "name": "septenseptuagintacentiljoen",
+      "power": 534
+    },
+    {
+      "name": "octoseptuagintacentiljard",
+      "power": 537
+    },
+    {
+      "name": "novemseptuagintacentiljoen",
+      "power": 540
+    },
+    {
+      "name": "octogintacentiljard",
+      "power": 543
+    },
+    {
+      "name": "unoctogintacentiljoen",
+      "power": 546
+    },
+    {
+      "name": "duooctogintacentiljard",
+      "power": 549
+    },
+    {
+      "name": "treoctogintacentiljoen",
+      "power": 552
+    }
+  ],
+  "unnamed": [
+    {
+      "name": "treoctogintacentiljard-555",
+      "power": 555
+    },
+    {
+      "name": "treoctogintacentiljoen-558",
+      "power": 558
+    },
+    {
+      "name": "treoctogintacentiljard-561",
+      "power": 561
+    },
+    {
+      "name": "treoctogintacentiljoen-564",
+      "power": 564
+    },
+    {
+      "name": "treoctogintacentiljard-gamma",
+      "power": 567
+    },
+    {
+      "name": "treoctogintacentiljoen-570",
+      "power": 570
+    },
+    {
+      "name": "sextreoctogintacentiljard-573",
+      "power": 573
+    },
+    {
+      "name": "treoctogintacentiljoen-576",
+      "power": 576
+    },
+    {
+      "name": "treoctogintacentiljard-579",
+      "power": 579
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 582
+    },
+    {
+      "name": "treoctogintacentiljard-585",
+      "power": 585
+    },
+    {
+      "name": "treoctogintacentiljoen-588",
+      "power": 588
+    },
+    {
+      "name": "treoctogintacentiljard-591",
+      "power": 591
+    },
+    {
+      "name": "quintreoctogintacentiljoen-594",
+      "power": 594
+    },
+    {
+      "name": "treoctogintacentiljard-beta",
+      "power": 597
+    },
+    {
+      "name": "treoctogintacentiljoen-600",
+      "power": 600
+    },
+    {
+      "name": "treoctogintacentiljard-603",
+      "power": 603
+    },
+    {
+      "name": "treoctogintacentiljoen-606",
+      "power": 606
+    },
+    {
+      "name": "treoctogintacentiljard-609",
+      "power": 609
+    },
+    {
+      "name": "treoctogintacentiljoen-v",
+      "power": 612
+    },
+    {
+      "name": "septtreoctogintacentiljard-615",
+      "power": 615
+    },
+    {
+      "name": "treoctogintacentiljoen-618",
+      "power": 618
+    },
+    {
+      "name": "treoctogintacentiljard-621",
+      "power": 621
+    },
+    {
+      "name": "treoctogintacentiljoen-624",
+      "power": 624
+    },
+    {
+      "name": "treoctogintacentiljard-prime",
+      "power": 627
+    },
+    {
+      "name": "treoctogintacentiljoen-630",
+      "power": 630
+    },
+    {
+      "name": "treoctogintacentiljard-633",
+      "power": 633
+    },
+    {
+      "name": "quintreoctogintacentiljoen-636",
+      "power": 636
+    },
+    {
+      "name": "treoctogintacentiljard-639",
+      "power": 639
+    },
+    {
+      "name": "treoctogintacentiljoen-gamma",
+      "power": 642
+    },
+    {
+      "name": "treoctogintacentiljard-645",
+      "power": 645
+    },
+    {
+      "name": "treoctogintacentiljoen-648",
+      "power": 648
+    },
+    {
+      "name": "treoctogintacentiljard-651",
+      "power": 651
+    },
+    {
+      "name": "treoctogintacentiljoen-654",
+      "power": 654
+    },
+    {
+      "name": "duotreoctogintacentiljard-ii",
+      "power": 657
+    },
+    {
+      "name": "treoctogintacentiljoen-660",
+      "power": 660
+    },
+    {
+      "name": "treoctogintacentiljard-663",
+      "power": 663
+    },
+    {
+      "name": "treoctogintacentiljoen-666",
+      "power": 666
+    },
+    {
+      "name": "treoctogintacentiljard-669",
+      "power": 669
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 672
+    },
+    {
+      "name": "treoctogintacentiljard-675",
+      "power": 675
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-678",
+      "power": 678
+    },
+    {
+      "name": "treoctogintacentiljard-681",
+      "power": 681
+    },
+    {
+      "name": "treoctogintacentiljoen-684",
+      "power": 684
+    },
+    {
+      "name": "treoctogintacentiljard-iii",
+      "power": 687
+    },
+    {
+      "name": "treoctogintacentiljoen-690",
+      "power": 690
+    },
+    {
+      "name": "treoctogintacentiljard-693",
+      "power": 693
+    },
+    {
+      "name": "treoctogintacentiljoen-696",
+      "power": 696
+    },
+    {
+      "name": "untreoctogintacentiljard-699",
+      "power": 699
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 702
+    },
+    {
+      "name": "treoctogintacentiljard-705",
+      "power": 705
+    },
+    {
+      "name": "treoctogintacentiljoen-708",
+      "power": 708
+    },
+    {
+      "name": "treoctogintacentiljard-711",
+      "power": 711
+    },
+    {
+      "name": "treoctogintacentiljoen-714",
+      "power": 714
+    },
+    {
+      "name": "treoctogintacentiljard-alpha",
+      "power": 717
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-720",
+      "power": 720
+    },
+    {
+      "name": "treoctogintacentiljard-723",
+      "power": 723
+    },
+    {
+      "name": "treoctogintacentiljoen-726",
+      "power": 726
+    },
+    {
+      "name": "treoctogintacentiljard-729",
+      "power": 729
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 732
+    },
+    {
+      "name": "treoctogintacentiljard-735",
+      "power": 735
+    },
+    {
+      "name": "treoctogintacentiljoen-738",
+      "power": 738
+    },
+    {
+      "name": "quattuortreoctogintacentiljard-741",
+      "power": 741
+    },
+    {
+      "name": "treoctogintacentiljoen-744",
+      "power": 744
+    },
+    {
+      "name": "treoctogintacentiljard-alpha",
+      "power": 747
+    },
+    {
+      "name": "treoctogintacentiljoen-750",
+      "power": 750
+    },
+    {
+      "name": "treoctogintacentiljard-753",
+      "power": 753
+    },
+    {
+      "name": "treoctogintacentiljoen-756",
+      "power": 756
+    },
+    {
+      "name": "treoctogintacentiljard-759",
+      "power": 759
+    },
+    {
+      "name": "untreoctogintacentiljoen-beta",
+      "power": 762
+    },
+    {
+      "name": "treoctogintacentiljard-765",
+      "power": 765
+    },
+    {
+      "name": "treoctogintacentiljoen-768",
+      "power": 768
+    },
+    {
+      "name": "treoctogintacentiljard-771",
+      "power": 771
+    },
+    {
+      "name": "treoctogintacentiljoen-774",
+      "power": 774
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 777
+    },
+    {
+      "name": "treoctogintacentiljoen-780",
+      "power": 780
+    },
+    {
+      "name": "duotreoctogintacentiljard-783",
+      "power": 783
+    },
+    {
+      "name": "treoctogintacentiljoen-786",
+      "power": 786
+    },
+    {
+      "name": "treoctogintacentiljard-789",
+      "power": 789
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 792
+    },
+    {
+      "name": "treoctogintacentiljard-795",
+      "power": 795
+    },
+    {
+      "name": "treoctogintacentiljoen-798",
+      "power": 798
+    },
+    {
+      "name": "treoctogintacentiljard-801",
+      "power": 801
+    },
+    {
+      "name": "tretreoctogintacentiljoen-804",
+      "power": 804
+    },
+    {
+      "name": "treoctogintacentiljard-alpha",
+      "power": 807
+    },
+    {
+      "name": "treoctogintacentiljoen-810",
+      "power": 810
+    },
+    {
+      "name": "treoctogintacentiljard-813",
+      "power": 813
+    },
+    {
+      "name": "treoctogintacentiljoen-816",
+      "power": 816
+    },
+    {
+      "name": "treoctogintacentiljard-819",
+      "power": 819
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 822
+    },
+    {
+      "name": "quattuortreoctogintacentiljard-825",
+      "power": 825
+    },
+    {
+      "name": "treoctogintacentiljoen-828",
+      "power": 828
+    },
+    {
+      "name": "treoctogintacentiljard-831",
+      "power": 831
+    },
+    {
+      "name": "treoctogintacentiljoen-834",
+      "power": 834
+    },
+    {
+      "name": "treoctogintacentiljard-iii",
+      "power": 837
+    },
+    {
+      "name": "treoctogintacentiljoen-840",
+      "power": 840
+    },
+    {
+      "name": "treoctogintacentiljard-843",
+      "power": 843
+    },
+    {
+      "name": "novtreoctogintacentiljoen-846",
+      "power": 846
+    },
+    {
+      "name": "treoctogintacentiljard-849",
+      "power": 849
+    },
+    {
+      "name": "treoctogintacentiljoen-beta",
+      "power": 852
+    },
+    {
+      "name": "treoctogintacentiljard-855",
+      "power": 855
+    },
+    {
+      "name": "treoctogintacentiljoen-858",
+      "power": 858
+    },
+    {
+      "name": "treoctogintacentiljard-861",
+      "power": 861
+    },
+    {
+      "name": "treoctogintacentiljoen-864",
+      "power": 864
+    },
+    {
+      "name": "untreoctogintacentiljard-ii",
+      "power": 867
+    },
+    {
+      "name": "treoctogintacentiljoen-870",
+      "power": 870
+    },
+    {
+      "name": "treoctogintacentiljard-873",
+      "power": 873
+    },
+    {
+      "name": "treoctogintacentiljoen-876",
+      "power": 876
+    },
+    {
+      "name": "treoctogintacentiljard-879",
+      "power": 879
+    },
+    {
+      "name": "treoctogintacentiljoen-v",
+      "power": 882
+    },
+    {
+      "name": "treoctogintacentiljard-885",
+      "power": 885
+    },
+    {
+      "name": "duotreoctogintacentiljoen-888",
+      "power": 888
+    },
+    {
+      "name": "treoctogintacentiljard-891",
+      "power": 891
+    },
+    {
+      "name": "treoctogintacentiljoen-894",
+      "power": 894
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 897
+    },
+    {
+      "name": "treoctogintacentiljoen-900",
+      "power": 900
+    },
+    {
+      "name": "treoctogintacentiljard-903",
+      "power": 903
+    },
+    {
+      "name": "treoctogintacentiljoen-906",
+      "power": 906
+    },
+    {
+      "name": "tretreoctogintacentiljard-909",
+      "power": 909
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 912
+    },
+    {
+      "name": "treoctogintacentiljard-915",
+      "power": 915
+    },
+    {
+      "name": "treoctogintacentiljoen-918",
+      "power": 918
+    },
+    {
+      "name": "treoctogintacentiljard-921",
+      "power": 921
+    },
+    {
+      "name": "treoctogintacentiljoen-924",
+      "power": 924
+    },
+    {
+      "name": "treoctogintacentiljard-prime",
+      "power": 927
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-930",
+      "power": 930
+    },
+    {
+      "name": "treoctogintacentiljard-933",
+      "power": 933
+    },
+    {
+      "name": "treoctogintacentiljoen-936",
+      "power": 936
+    },
+    {
+      "name": "treoctogintacentiljard-939",
+      "power": 939
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 942
+    },
+    {
+      "name": "treoctogintacentiljard-945",
+      "power": 945
+    },
+    {
+      "name": "treoctogintacentiljoen-948",
+      "power": 948
+    },
+    {
+      "name": "septtreoctogintacentiljard-951",
+      "power": 951
+    },
+    {
+      "name": "treoctogintacentiljoen-954",
+      "power": 954
+    },
+    {
+      "name": "treoctogintacentiljard-iii",
+      "power": 957
+    },
+    {
+      "name": "treoctogintacentiljoen-960",
+      "power": 960
+    },
+    {
+      "name": "treoctogintacentiljard-963",
+      "power": 963
+    },
+    {
+      "name": "treoctogintacentiljoen-966",
+      "power": 966
+    },
+    {
+      "name": "treoctogintacentiljard-969",
+      "power": 969
+    },
+    {
+      "name": "untreoctogintacentiljoen-beta",
+      "power": 972
+    },
+    {
+      "name": "treoctogintacentiljard-975",
+      "power": 975
+    },
+    {
+      "name": "treoctogintacentiljoen-978",
+      "power": 978
+    },
+    {
+      "name": "treoctogintacentiljard-981",
+      "power": 981
+    },
+    {
+      "name": "treoctogintacentiljoen-984",
+      "power": 984
+    },
+    {
+      "name": "treoctogintacentiljard-v",
+      "power": 987
+    },
+    {
+      "name": "treoctogintacentiljoen-990",
+      "power": 990
+    },
+    {
+      "name": "octtreoctogintacentiljard-993",
+      "power": 993
+    },
+    {
+      "name": "treoctogintacentiljoen-996",
+      "power": 996
+    },
+    {
+      "name": "treoctogintacentiljard-999",
+      "power": 999
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1002
+    },
+    {
+      "name": "treoctogintacentiljard-1005",
+      "power": 1005
+    },
+    {
+      "name": "treoctogintacentiljoen-1008",
+      "power": 1008
+    },
+    {
+      "name": "treoctogintacentiljard-1011",
+      "power": 1011
+    },
+    {
+      "name": "duotreoctogintacentiljoen-1014",
+      "power": 1014
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1017
+    },
+    {
+      "name": "treoctogintacentiljoen-1020",
+      "power": 1020
+    },
+    {
+      "name": "treoctogintacentiljard-1023",
+      "power": 1023
+    },
+    {
+      "name": "treoctogintacentiljoen-1026",
+      "power": 1026
+    },
+    {
+      "name": "treoctogintacentiljard-1029",
+      "power": 1029
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 1032
+    },
+    {
+      "name": "untreoctogintacentiljard-1035",
+      "power": 1035
+    },
+    {
+      "name": "treoctogintacentiljoen-1038",
+      "power": 1038
+    },
+    {
+      "name": "treoctogintacentiljard-1041",
+      "power": 1041
+    },
+    {
+      "name": "treoctogintacentiljoen-1044",
+      "power": 1044
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 1047
+    },
+    {
+      "name": "treoctogintacentiljoen-1050",
+      "power": 1050
+    },
+    {
+      "name": "treoctogintacentiljard-1053",
+      "power": 1053
+    },
+    {
+      "name": "octtreoctogintacentiljoen-1056",
+      "power": 1056
+    },
+    {
+      "name": "treoctogintacentiljard-1059",
+      "power": 1059
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 1062
+    },
+    {
+      "name": "treoctogintacentiljard-1065",
+      "power": 1065
+    },
+    {
+      "name": "treoctogintacentiljoen-1068",
+      "power": 1068
+    },
+    {
+      "name": "treoctogintacentiljard-1071",
+      "power": 1071
+    },
+    {
+      "name": "treoctogintacentiljoen-1074",
+      "power": 1074
+    },
+    {
+      "name": "septtreoctogintacentiljard-v",
+      "power": 1077
+    },
+    {
+      "name": "treoctogintacentiljoen-1080",
+      "power": 1080
+    },
+    {
+      "name": "treoctogintacentiljard-1083",
+      "power": 1083
+    },
+    {
+      "name": "treoctogintacentiljoen-1086",
+      "power": 1086
+    },
+    {
+      "name": "treoctogintacentiljard-1089",
+      "power": 1089
+    },
+    {
+      "name": "treoctogintacentiljoen-gamma",
+      "power": 1092
+    },
+    {
+      "name": "treoctogintacentiljard-1095",
+      "power": 1095
+    },
+    {
+      "name": "novtreoctogintacentiljoen-1098",
+      "power": 1098
+    },
+    {
+      "name": "treoctogintacentiljard-1101",
+      "power": 1101
+    },
+    {
+      "name": "treoctogintacentiljoen-1104",
+      "power": 1104
+    },
+    {
+      "name": "treoctogintacentiljard-prime",
+      "power": 1107
+    },
+    {
+      "name": "treoctogintacentiljoen-1110",
+      "power": 1110
+    },
+    {
+      "name": "treoctogintacentiljard-1113",
+      "power": 1113
+    },
+    {
+      "name": "treoctogintacentiljoen-1116",
+      "power": 1116
+    },
+    {
+      "name": "tretreoctogintacentiljard-1119",
+      "power": 1119
+    },
+    {
+      "name": "treoctogintacentiljoen-v",
+      "power": 1122
+    },
+    {
+      "name": "treoctogintacentiljard-1125",
+      "power": 1125
+    },
+    {
+      "name": "treoctogintacentiljoen-1128",
+      "power": 1128
+    },
+    {
+      "name": "treoctogintacentiljard-1131",
+      "power": 1131
+    },
+    {
+      "name": "treoctogintacentiljoen-1134",
+      "power": 1134
+    },
+    {
+      "name": "treoctogintacentiljard-v",
+      "power": 1137
+    },
+    {
+      "name": "sextreoctogintacentiljoen-1140",
+      "power": 1140
+    },
+    {
+      "name": "treoctogintacentiljard-1143",
+      "power": 1143
+    },
+    {
+      "name": "treoctogintacentiljoen-1146",
+      "power": 1146
+    },
+    {
+      "name": "treoctogintacentiljard-1149",
+      "power": 1149
+    },
+    {
+      "name": "treoctogintacentiljoen-beta",
+      "power": 1152
+    },
+    {
+      "name": "treoctogintacentiljard-1155",
+      "power": 1155
+    },
+    {
+      "name": "treoctogintacentiljoen-1158",
+      "power": 1158
+    },
+    {
+      "name": "duotreoctogintacentiljard-1161",
+      "power": 1161
+    },
+    {
+      "name": "treoctogintacentiljoen-1164",
+      "power": 1164
+    },
+    {
+      "name": "treoctogintacentiljard-beta",
+      "power": 1167
+    },
+    {
+      "name": "treoctogintacentiljoen-1170",
+      "power": 1170
+    },
+    {
+      "name": "treoctogintacentiljard-1173",
+      "power": 1173
+    },
+    {
+      "name": "treoctogintacentiljoen-1176",
+      "power": 1176
+    },
+    {
+      "name": "treoctogintacentiljard-1179",
+      "power": 1179
+    },
+    {
+      "name": "tretreoctogintacentiljoen-prime",
+      "power": 1182
+    },
+    {
+      "name": "treoctogintacentiljard-1185",
+      "power": 1185
+    },
+    {
+      "name": "treoctogintacentiljoen-1188",
+      "power": 1188
+    },
+    {
+      "name": "treoctogintacentiljard-1191",
+      "power": 1191
+    },
+    {
+      "name": "treoctogintacentiljoen-1194",
+      "power": 1194
+    },
+    {
+      "name": "treoctogintacentiljard-beta",
+      "power": 1197
+    },
+    {
+      "name": "treoctogintacentiljoen-1200",
+      "power": 1200
+    },
+    {
+      "name": "septtreoctogintacentiljard-1203",
+      "power": 1203
+    },
+    {
+      "name": "treoctogintacentiljoen-1206",
+      "power": 1206
+    },
+    {
+      "name": "treoctogintacentiljard-1209",
+      "power": 1209
+    },
+    {
+      "name": "treoctogintacentiljoen-iv",
+      "power": 1212
+    },
+    {
+      "name": "treoctogintacentiljard-1215",
+      "power": 1215
+    },
+    {
+      "name": "treoctogintacentiljoen-1218",
+      "power": 1218
+    },
+    {
+      "name": "treoctogintacentiljard-1221",
+      "power": 1221
+    },
+    {
+      "name": "sextreoctogintacentiljoen-1224",
+      "power": 1224
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1227
+    },
+    {
+      "name": "treoctogintacentiljoen-1230",
+      "power": 1230
+    },
+    {
+      "name": "treoctogintacentiljard-1233",
+      "power": 1233
+    },
+    {
+      "name": "treoctogintacentiljoen-1236",
+      "power": 1236
+    },
+    {
+      "name": "treoctogintacentiljard-1239",
+      "power": 1239
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 1242
+    },
+    {
+      "name": "sextreoctogintacentiljard-1245",
+      "power": 1245
+    },
+    {
+      "name": "treoctogintacentiljoen-1248",
+      "power": 1248
+    },
+    {
+      "name": "treoctogintacentiljard-1251",
+      "power": 1251
+    },
+    {
+      "name": "treoctogintacentiljoen-1254",
+      "power": 1254
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1257
+    },
+    {
+      "name": "treoctogintacentiljoen-1260",
+      "power": 1260
+    },
+    {
+      "name": "treoctogintacentiljard-1263",
+      "power": 1263
+    },
+    {
+      "name": "sextreoctogintacentiljoen-1266",
+      "power": 1266
+    },
+    {
+      "name": "treoctogintacentiljard-1269",
+      "power": 1269
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 1272
+    },
+    {
+      "name": "treoctogintacentiljard-1275",
+      "power": 1275
+    },
+    {
+      "name": "treoctogintacentiljoen-1278",
+      "power": 1278
+    },
+    {
+      "name": "treoctogintacentiljard-1281",
+      "power": 1281
+    },
+    {
+      "name": "treoctogintacentiljoen-1284",
+      "power": 1284
+    },
+    {
+      "name": "octtreoctogintacentiljard-beta",
+      "power": 1287
+    },
+    {
+      "name": "treoctogintacentiljoen-1290",
+      "power": 1290
+    },
+    {
+      "name": "treoctogintacentiljard-1293",
+      "power": 1293
+    },
+    {
+      "name": "treoctogintacentiljoen-1296",
+      "power": 1296
+    },
+    {
+      "name": "treoctogintacentiljard-1299",
+      "power": 1299
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1302
+    },
+    {
+      "name": "treoctogintacentiljard-1305",
+      "power": 1305
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-1308",
+      "power": 1308
+    },
+    {
+      "name": "treoctogintacentiljard-1311",
+      "power": 1311
+    },
+    {
+      "name": "treoctogintacentiljoen-1314",
+      "power": 1314
+    },
+    {
+      "name": "treoctogintacentiljard-beta",
+      "power": 1317
+    },
+    {
+      "name": "treoctogintacentiljoen-1320",
+      "power": 1320
+    },
+    {
+      "name": "treoctogintacentiljard-1323",
+      "power": 1323
+    },
+    {
+      "name": "treoctogintacentiljoen-1326",
+      "power": 1326
+    },
+    {
+      "name": "sextreoctogintacentiljard-1329",
+      "power": 1329
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 1332
+    },
+    {
+      "name": "treoctogintacentiljard-1335",
+      "power": 1335
+    },
+    {
+      "name": "treoctogintacentiljoen-1338",
+      "power": 1338
+    },
+    {
+      "name": "treoctogintacentiljard-1341",
+      "power": 1341
+    },
+    {
+      "name": "treoctogintacentiljoen-1344",
+      "power": 1344
+    },
+    {
+      "name": "treoctogintacentiljard-v",
+      "power": 1347
+    },
+    {
+      "name": "quintreoctogintacentiljoen-1350",
+      "power": 1350
+    },
+    {
+      "name": "treoctogintacentiljard-1353",
+      "power": 1353
+    },
+    {
+      "name": "treoctogintacentiljoen-1356",
+      "power": 1356
+    },
+    {
+      "name": "treoctogintacentiljard-1359",
+      "power": 1359
+    },
+    {
+      "name": "treoctogintacentiljoen-iv",
+      "power": 1362
+    },
+    {
+      "name": "treoctogintacentiljard-1365",
+      "power": 1365
+    },
+    {
+      "name": "treoctogintacentiljoen-1368",
+      "power": 1368
+    },
+    {
+      "name": "quattuortreoctogintacentiljard-1371",
+      "power": 1371
+    },
+    {
+      "name": "treoctogintacentiljoen-1374",
+      "power": 1374
+    },
+    {
+      "name": "treoctogintacentiljard-prime",
+      "power": 1377
+    },
+    {
+      "name": "treoctogintacentiljoen-1380",
+      "power": 1380
+    },
+    {
+      "name": "treoctogintacentiljard-1383",
+      "power": 1383
+    },
+    {
+      "name": "treoctogintacentiljoen-1386",
+      "power": 1386
+    },
+    {
+      "name": "treoctogintacentiljard-1389",
+      "power": 1389
+    },
+    {
+      "name": "untreoctogintacentiljoen-ii",
+      "power": 1392
+    },
+    {
+      "name": "treoctogintacentiljard-1395",
+      "power": 1395
+    },
+    {
+      "name": "treoctogintacentiljoen-1398",
+      "power": 1398
+    },
+    {
+      "name": "treoctogintacentiljard-1401",
+      "power": 1401
+    },
+    {
+      "name": "treoctogintacentiljoen-1404",
+      "power": 1404
+    },
+    {
+      "name": "treoctogintacentiljard-gamma",
+      "power": 1407
+    },
+    {
+      "name": "treoctogintacentiljoen-1410",
+      "power": 1410
+    },
+    {
+      "name": "septtreoctogintacentiljard-1413",
+      "power": 1413
+    },
+    {
+      "name": "treoctogintacentiljoen-1416",
+      "power": 1416
+    },
+    {
+      "name": "treoctogintacentiljard-1419",
+      "power": 1419
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 1422
+    },
+    {
+      "name": "treoctogintacentiljard-1425",
+      "power": 1425
+    },
+    {
+      "name": "treoctogintacentiljoen-1428",
+      "power": 1428
+    },
+    {
+      "name": "treoctogintacentiljard-1431",
+      "power": 1431
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-1434",
+      "power": 1434
+    },
+    {
+      "name": "treoctogintacentiljard-alpha",
+      "power": 1437
+    },
+    {
+      "name": "treoctogintacentiljoen-1440",
+      "power": 1440
+    },
+    {
+      "name": "treoctogintacentiljard-1443",
+      "power": 1443
+    },
+    {
+      "name": "treoctogintacentiljoen-1446",
+      "power": 1446
+    },
+    {
+      "name": "treoctogintacentiljard-1449",
+      "power": 1449
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1452
+    },
+    {
+      "name": "septtreoctogintacentiljard-1455",
+      "power": 1455
+    },
+    {
+      "name": "treoctogintacentiljoen-1458",
+      "power": 1458
+    },
+    {
+      "name": "treoctogintacentiljard-1461",
+      "power": 1461
+    },
+    {
+      "name": "treoctogintacentiljoen-1464",
+      "power": 1464
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1467
+    },
+    {
+      "name": "treoctogintacentiljoen-1470",
+      "power": 1470
+    },
+    {
+      "name": "treoctogintacentiljard-1473",
+      "power": 1473
+    },
+    {
+      "name": "octtreoctogintacentiljoen-1476",
+      "power": 1476
+    },
+    {
+      "name": "treoctogintacentiljard-1479",
+      "power": 1479
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 1482
+    },
+    {
+      "name": "treoctogintacentiljard-1485",
+      "power": 1485
+    },
+    {
+      "name": "treoctogintacentiljoen-1488",
+      "power": 1488
+    },
+    {
+      "name": "treoctogintacentiljard-1491",
+      "power": 1491
+    },
+    {
+      "name": "treoctogintacentiljoen-1494",
+      "power": 1494
+    },
+    {
+      "name": "sextreoctogintacentiljard-prime",
+      "power": 1497
+    },
+    {
+      "name": "treoctogintacentiljoen-1500",
+      "power": 1500
+    },
+    {
+      "name": "treoctogintacentiljard-1503",
+      "power": 1503
+    },
+    {
+      "name": "treoctogintacentiljoen-1506",
+      "power": 1506
+    },
+    {
+      "name": "treoctogintacentiljard-1509",
+      "power": 1509
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1512
+    },
+    {
+      "name": "treoctogintacentiljard-1515",
+      "power": 1515
+    },
+    {
+      "name": "septtreoctogintacentiljoen-1518",
+      "power": 1518
+    },
+    {
+      "name": "treoctogintacentiljard-1521",
+      "power": 1521
+    },
+    {
+      "name": "treoctogintacentiljoen-1524",
+      "power": 1524
+    },
+    {
+      "name": "treoctogintacentiljard-gamma",
+      "power": 1527
+    },
+    {
+      "name": "treoctogintacentiljoen-1530",
+      "power": 1530
+    },
+    {
+      "name": "treoctogintacentiljard-1533",
+      "power": 1533
+    },
+    {
+      "name": "treoctogintacentiljoen-1536",
+      "power": 1536
+    },
+    {
+      "name": "quattuortreoctogintacentiljard-1539",
+      "power": 1539
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1542
+    },
+    {
+      "name": "treoctogintacentiljard-1545",
+      "power": 1545
+    },
+    {
+      "name": "treoctogintacentiljoen-1548",
+      "power": 1548
+    },
+    {
+      "name": "treoctogintacentiljard-1551",
+      "power": 1551
+    },
+    {
+      "name": "treoctogintacentiljoen-1554",
+      "power": 1554
+    },
+    {
+      "name": "treoctogintacentiljard-gamma",
+      "power": 1557
+    },
+    {
+      "name": "tretreoctogintacentiljoen-1560",
+      "power": 1560
+    },
+    {
+      "name": "treoctogintacentiljard-1563",
+      "power": 1563
+    },
+    {
+      "name": "treoctogintacentiljoen-1566",
+      "power": 1566
+    },
+    {
+      "name": "treoctogintacentiljard-1569",
+      "power": 1569
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 1572
+    },
+    {
+      "name": "treoctogintacentiljard-1575",
+      "power": 1575
+    },
+    {
+      "name": "treoctogintacentiljoen-1578",
+      "power": 1578
+    },
+    {
+      "name": "untreoctogintacentiljard-1581",
+      "power": 1581
+    },
+    {
+      "name": "treoctogintacentiljoen-1584",
+      "power": 1584
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 1587
+    },
+    {
+      "name": "treoctogintacentiljoen-1590",
+      "power": 1590
+    },
+    {
+      "name": "treoctogintacentiljard-1593",
+      "power": 1593
+    },
+    {
+      "name": "treoctogintacentiljoen-1596",
+      "power": 1596
+    },
+    {
+      "name": "treoctogintacentiljard-1599",
+      "power": 1599
+    },
+    {
+      "name": "sextreoctogintacentiljoen-gamma",
+      "power": 1602
+    },
+    {
+      "name": "treoctogintacentiljard-1605",
+      "power": 1605
+    },
+    {
+      "name": "treoctogintacentiljoen-1608",
+      "power": 1608
+    },
+    {
+      "name": "treoctogintacentiljard-1611",
+      "power": 1611
+    },
+    {
+      "name": "treoctogintacentiljoen-1614",
+      "power": 1614
+    },
+    {
+      "name": "treoctogintacentiljard-gamma",
+      "power": 1617
+    },
+    {
+      "name": "treoctogintacentiljoen-1620",
+      "power": 1620
+    },
+    {
+      "name": "tretreoctogintacentiljard-1623",
+      "power": 1623
+    },
+    {
+      "name": "treoctogintacentiljoen-1626",
+      "power": 1626
+    },
+    {
+      "name": "treoctogintacentiljard-1629",
+      "power": 1629
+    },
+    {
+      "name": "treoctogintacentiljoen-alpha",
+      "power": 1632
+    },
+    {
+      "name": "treoctogintacentiljard-1635",
+      "power": 1635
+    },
+    {
+      "name": "treoctogintacentiljoen-1638",
+      "power": 1638
+    },
+    {
+      "name": "treoctogintacentiljard-1641",
+      "power": 1641
+    },
+    {
+      "name": "sextreoctogintacentiljoen-1644",
+      "power": 1644
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1647
+    },
+    {
+      "name": "treoctogintacentiljoen-1650",
+      "power": 1650
+    },
+    {
+      "name": "treoctogintacentiljard-1653",
+      "power": 1653
+    },
+    {
+      "name": "treoctogintacentiljoen-1656",
+      "power": 1656
+    },
+    {
+      "name": "treoctogintacentiljard-1659",
+      "power": 1659
+    },
+    {
+      "name": "treoctogintacentiljoen-beta",
+      "power": 1662
+    },
+    {
+      "name": "duotreoctogintacentiljard-1665",
+      "power": 1665
+    },
+    {
+      "name": "treoctogintacentiljoen-1668",
+      "power": 1668
+    },
+    {
+      "name": "treoctogintacentiljard-1671",
+      "power": 1671
+    },
+    {
+      "name": "treoctogintacentiljoen-1674",
+      "power": 1674
+    },
+    {
+      "name": "treoctogintacentiljard-prime",
+      "power": 1677
+    },
+    {
+      "name": "treoctogintacentiljoen-1680",
+      "power": 1680
+    },
+    {
+      "name": "treoctogintacentiljard-1683",
+      "power": 1683
+    },
+    {
+      "name": "octtreoctogintacentiljoen-1686",
+      "power": 1686
+    },
+    {
+      "name": "treoctogintacentiljard-1689",
+      "power": 1689
+    },
+    {
+      "name": "treoctogintacentiljoen-ii",
+      "power": 1692
+    },
+    {
+      "name": "treoctogintacentiljard-1695",
+      "power": 1695
+    },
+    {
+      "name": "treoctogintacentiljoen-1698",
+      "power": 1698
+    },
+    {
+      "name": "treoctogintacentiljard-1701",
+      "power": 1701
+    },
+    {
+      "name": "treoctogintacentiljoen-1704",
+      "power": 1704
+    },
+    {
+      "name": "quintreoctogintacentiljard-iv",
+      "power": 1707
+    },
+    {
+      "name": "treoctogintacentiljoen-1710",
+      "power": 1710
+    },
+    {
+      "name": "treoctogintacentiljard-1713",
+      "power": 1713
+    },
+    {
+      "name": "treoctogintacentiljoen-1716",
+      "power": 1716
+    },
+    {
+      "name": "treoctogintacentiljard-1719",
+      "power": 1719
+    },
+    {
+      "name": "treoctogintacentiljoen-gamma",
+      "power": 1722
+    },
+    {
+      "name": "treoctogintacentiljard-1725",
+      "power": 1725
+    },
+    {
+      "name": "quintreoctogintacentiljoen-1728",
+      "power": 1728
+    },
+    {
+      "name": "treoctogintacentiljard-1731",
+      "power": 1731
+    },
+    {
+      "name": "treoctogintacentiljoen-1734",
+      "power": 1734
+    },
+    {
+      "name": "treoctogintacentiljard-beta",
+      "power": 1737
+    },
+    {
+      "name": "treoctogintacentiljoen-1740",
+      "power": 1740
+    },
+    {
+      "name": "treoctogintacentiljard-1743",
+      "power": 1743
+    },
+    {
+      "name": "treoctogintacentiljoen-1746",
+      "power": 1746
+    },
+    {
+      "name": "duotreoctogintacentiljard-1749",
+      "power": 1749
+    },
+    {
+      "name": "treoctogintacentiljoen-prime",
+      "power": 1752
+    },
+    {
+      "name": "treoctogintacentiljard-1755",
+      "power": 1755
+    },
+    {
+      "name": "treoctogintacentiljoen-1758",
+      "power": 1758
+    },
+    {
+      "name": "treoctogintacentiljard-1761",
+      "power": 1761
+    },
+    {
+      "name": "treoctogintacentiljoen-1764",
+      "power": 1764
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 1767
+    },
+    {
+      "name": "octtreoctogintacentiljoen-1770",
+      "power": 1770
+    },
+    {
+      "name": "treoctogintacentiljard-1773",
+      "power": 1773
+    },
+    {
+      "name": "treoctogintacentiljoen-1776",
+      "power": 1776
+    },
+    {
+      "name": "treoctogintacentiljard-1779",
+      "power": 1779
+    },
+    {
+      "name": "treoctogintacentiljoen-gamma",
+      "power": 1782
+    },
+    {
+      "name": "treoctogintacentiljard-1785",
+      "power": 1785
+    },
+    {
+      "name": "treoctogintacentiljoen-1788",
+      "power": 1788
+    },
+    {
+      "name": "tretreoctogintacentiljard-1791",
+      "power": 1791
+    },
+    {
+      "name": "treoctogintacentiljoen-1794",
+      "power": 1794
+    },
+    {
+      "name": "treoctogintacentiljard-iii",
+      "power": 1797
+    },
+    {
+      "name": "treoctogintacentiljoen-1800",
+      "power": 1800
+    },
+    {
+      "name": "treoctogintacentiljard-1803",
+      "power": 1803
+    },
+    {
+      "name": "treoctogintacentiljoen-1806",
+      "power": 1806
+    },
+    {
+      "name": "treoctogintacentiljard-1809",
+      "power": 1809
+    },
+    {
+      "name": "septtreoctogintacentiljoen-ii",
+      "power": 1812
+    },
+    {
+      "name": "treoctogintacentiljard-1815",
+      "power": 1815
+    },
+    {
+      "name": "treoctogintacentiljoen-1818",
+      "power": 1818
+    },
+    {
+      "name": "treoctogintacentiljard-1821",
+      "power": 1821
+    },
+    {
+      "name": "treoctogintacentiljoen-1824",
+      "power": 1824
+    },
+    {
+      "name": "treoctogintacentiljard-ii",
+      "power": 1827
+    },
+    {
+      "name": "treoctogintacentiljoen-1830",
+      "power": 1830
+    },
+    {
+      "name": "septtreoctogintacentiljard-1833",
+      "power": 1833
+    },
+    {
+      "name": "treoctogintacentiljoen-1836",
+      "power": 1836
+    },
+    {
+      "name": "treoctogintacentiljard-1839",
+      "power": 1839
+    },
+    {
+      "name": "treoctogintacentiljoen-iv",
+      "power": 1842
+    },
+    {
+      "name": "treoctogintacentiljard-1845",
+      "power": 1845
+    },
+    {
+      "name": "treoctogintacentiljoen-1848",
+      "power": 1848
+    },
+    {
+      "name": "treoctogintacentiljard-1851",
+      "power": 1851
+    },
+    {
+      "name": "sextreoctogintacentiljoen-1854",
+      "power": 1854
+    },
+    {
+      "name": "treoctogintacentiljard-iv",
+      "power": 1857
+    },
+    {
+      "name": "treoctogintacentiljoen-1860",
+      "power": 1860
+    },
+    {
+      "name": "treoctogintacentiljard-1863",
+      "power": 1863
+    },
+    {
+      "name": "treoctogintacentiljoen-1866",
+      "power": 1866
+    },
+    {
+      "name": "treoctogintacentiljard-1869",
+      "power": 1869
+    },
+    {
+      "name": "treoctogintacentiljoen-gamma",
+      "power": 1872
+    },
+    {
+      "name": "septtreoctogintacentiljard-1875",
+      "power": 1875
+    },
+    {
+      "name": "treoctogintacentiljoen-1878",
+      "power": 1878
+    },
+    {
+      "name": "treoctogintacentiljard-1881",
+      "power": 1881
+    },
+    {
+      "name": "treoctogintacentiljoen-1884",
+      "power": 1884
+    },
+    {
+      "name": "treoctogintacentiljard-alpha",
+      "power": 1887
+    },
+    {
+      "name": "treoctogintacentiljoen-1890",
+      "power": 1890
+    },
+    {
+      "name": "treoctogintacentiljard-1893",
+      "power": 1893
+    },
+    {
+      "name": "duotreoctogintacentiljoen-1896",
+      "power": 1896
+    },
+    {
+      "name": "treoctogintacentiljard-1899",
+      "power": 1899
+    },
+    {
+      "name": "treoctogintacentiljoen-iv",
+      "power": 1902
+    },
+    {
+      "name": "treoctogintacentiljard-1905",
+      "power": 1905
+    },
+    {
+      "name": "treoctogintacentiljoen-1908",
+      "power": 1908
+    },
+    {
+      "name": "treoctogintacentiljard-1911",
+      "power": 1911
+    },
+    {
+      "name": "treoctogintacentiljoen-1914",
+      "power": 1914
+    },
+    {
+      "name": "sextreoctogintacentiljard-ii",
+      "power": 1917
+    },
+    {
+      "name": "treoctogintacentiljoen-1920",
+      "power": 1920
+    },
+    {
+      "name": "treoctogintacentiljard-1923",
+      "power": 1923
+    },
+    {
+      "name": "treoctogintacentiljoen-1926",
+      "power": 1926
+    },
+    {
+      "name": "treoctogintacentiljard-1929",
+      "power": 1929
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 1932
+    },
+    {
+      "name": "treoctogintacentiljard-1935",
+      "power": 1935
+    },
+    {
+      "name": "quattuortreoctogintacentiljoen-1938",
+      "power": 1938
+    },
+    {
+      "name": "treoctogintacentiljard-1941",
+      "power": 1941
+    },
+    {
+      "name": "treoctogintacentiljoen-1944",
+      "power": 1944
+    },
+    {
+      "name": "treoctogintacentiljard-v",
+      "power": 1947
+    },
+    {
+      "name": "treoctogintacentiljoen-1950",
+      "power": 1950
+    },
+    {
+      "name": "treoctogintacentiljard-1953",
+      "power": 1953
+    },
+    {
+      "name": "treoctogintacentiljoen-1956",
+      "power": 1956
+    },
+    {
+      "name": "septtreoctogintacentiljard-1959",
+      "power": 1959
+    },
+    {
+      "name": "treoctogintacentiljoen-iii",
+      "power": 1962
+    },
+    {
+      "name": "treoctogintacentiljard-1965",
+      "power": 1965
+    },
+    {
+      "name": "treoctogintacentiljoen-1968",
+      "power": 1968
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-1971",
+      "power": 1971
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-1974",
+      "power": 1974
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-iii",
+      "power": 1977
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-1980",
+      "power": 1980
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-1983",
+      "power": 1983
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-1986",
+      "power": 1986
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-1989",
+      "power": 1989
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-gamma",
+      "power": 1992
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-1995",
+      "power": 1995
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-1998",
+      "power": 1998
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-2001",
+      "power": 2001
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-2004",
+      "power": 2004
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-2007",
+      "power": 2007
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljoen-2010",
+      "power": 2010
+    },
+    {
+      "name": "MegaMultiNumberToHighIndexiljard-2013",
+      "power": 2013
+    }
+  ]
+}

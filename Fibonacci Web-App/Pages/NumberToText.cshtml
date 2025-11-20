@@ -1,0 +1,38 @@
+﻿@page
+@model Fibonacci_Web_App.Pages.NumberToTextModel
+@{
+}
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="post" asp-page-handler="Check" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="mb-3 overflow-hidden">
+                <label asp-for="inputNumber" class="form-label">Very big numbers supported up to (9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)</label>
+                <input asp-for="inputNumber" class="form-control" placeholder="Enter Bigintager" />
+                <span asp-validation-for="inputNumber" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Get</button>
+        </form>
+    </div>
+</div>
+
+@try
+{
+    string? outputStr = Model.NumericWordsConverterRepository.ConvertToWords(Model.inputNumber);
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Result</h5>
+            <p class="card-text"><strong>@outputStr</strong></p>
+        </div>
+    </div>
+}
+catch
+{
+    <div class="alert alert-danger" role="alert">
+        Could not retrieve wording for <strong>@Model.inputNumber</strong>.
+    </div>
+}

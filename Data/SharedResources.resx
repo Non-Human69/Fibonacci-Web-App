@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+
+  <!-- Site / navigation -->
+  <data name="SiteTitle" xml:space="preserve"><value>Fibonacci Web App</value></data>
+  <data name="HomeLead" xml:space="preserve"><value>Explore Fibonacci numbers — check if a value is Fibonacci, get a Fibonacci value by index, build numbers from Fibonacci combinations, or list Fibonacci numbers in a range and their sum.</value></data>
+  <data name="Button_CheckNumber" xml:space="preserve"><value>Check a Number</value></data>
+  <data name="Button_GetByIndex" xml:space="preserve"><value>Get by Index</value></data>
+  <data name="Button_Combination" xml:space="preserve"><value>Combination</value></data>
+  <data name="Button_RangeSum" xml:space="preserve"><value>Range &amp; Sum</value></data>
+
+  <!-- Quick facts -->
+  <data name="QuickFactsTitle" xml:space="preserve"><value>Quick facts</value></data>
+  <data name="QuickFact1" xml:space="preserve"><value>Razor Pages with a clean UI</value></data>
+  <data name="QuickFact2" xml:space="preserve"><value>Big integers supported up to index 9999</value></data>
+  <data name="QuickFact3" xml:space="preserve"><value>Biggest possible number: Duocenti-novemdecillion</value></data>
+  <data name="QuickFact4" xml:space="preserve"><value>This is a number with 616 zeros</value></data>
+
+  <!-- Cards / section titles -->
+  <data name="Card_CheckTitle" xml:space="preserve"><value>Check Fibonacci</value></data>
+  <data name="Card_CheckText" xml:space="preserve"><value>Quickly determine whether a number is part of the Fibonacci sequence.</value></data>
+  <data name="Card_CheckButton" xml:space="preserve"><value>Go to Checker</value></data>
+
+  <data name="Card_GetTitle" xml:space="preserve"><value>Get by Index</value></data>
+  <data name="Card_GetText" xml:space="preserve"><value>Retrieve the Fibonacci number at a given index (supports large indices with BigInteger).</value></data>
+  <data name="Card_GetButton" xml:space="preserve"><value>Get Number</value></data>
+
+  <data name="Card_CombinationTitle" xml:space="preserve"><value>Combination</value></data>
+  <data name="Card_CombinationText" xml:space="preserve"><value>Find which Fibonacci numbers combine to form a target value (Zeckendorf-style).</value></data>
+  <data name="Card_CombinationButton" xml:space="preserve"><value>View Combination</value></data>
+
+  <data name="Card_RangeTitle" xml:space="preserve"><value>Range &amp; Sum</value></data>
+  <data name="Card_RangeText" xml:space="preserve"><value>List Fibonacci numbers in a range and compute their sum.</value></data>
+  <data name="Card_RangeButton" xml:space="preserve"><value>Explore Range</value></data>
+
+  <!-- Page titles -->
+  <data name="PageTitle_RangeSum" xml:space="preserve"><value>Fibonacci get range and sum</value></data>
+  <data name="PageTitle_Checker" xml:space="preserve"><value>Fibonacci Checker</value></data>
+
+  <!-- Range form -->
+  <data name="Label_StartNumber" xml:space="preserve"><value>Start Number</value></data>
+  <data name="Label_EndNumber" xml:space="preserve"><value>End Number</value></data>
+  <data name="Placeholder_StartInclusive" xml:space="preserve"><value>Start (inclusive)</value></data>
+  <data name="Placeholder_EndInclusive" xml:space="preserve"><value>End (inclusive)</value></data>
+  <data name="Button_GetRange" xml:space="preserve"><value>Get Range</value></data>
+  <data name="NoFiboInRangeMessage" xml:space="preserve"><value>No Fibonacci numbers in the specified range.</value></data>
+  <data name="RangeErrorMessage" xml:space="preserve"><value>Invalid range or an error occurred while computing the range.</value></data>
+
+  <!-- Checker form -->
+  <data name="Label_Number" xml:space="preserve"><value>Number</value></data>
+  <data name="Placeholder_Number" xml:space="preserve"><value>Enter integer (BigInteger supported)</value></data>
+  <data name="Button_Check" xml:space="preserve"><value>Check</value></data>
+  <data name="Success_IsFibo" xml:space="preserve"><value>{0} is a Fibonacci number.</value></data>
+  <data name="Warning_NotFibo" xml:space="preserve"><value>{0} is NOT a Fibonacci number.</value></data>
+
+  <!-- Combination / errors -->
+  <data name="Combination_CannotRepresent" xml:space="preserve"><value>Cannot represent {0} with available Fibonacci numbers. Remaining: {1}. Ensure the repository provides sufficiently large Fibonacci numbers.</value></data>
+
+  <!-- Validation -->
+  <data name="Validation_Required" xml:space="preserve"><value>The {0} field is required.</value></data>
+  <data name="Validation_InvalidNumber" xml:space="preserve"><value>Please enter a valid integer.</value></data>
+</root>

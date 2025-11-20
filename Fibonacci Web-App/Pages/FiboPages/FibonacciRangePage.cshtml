@@ -1,0 +1,62 @@
+﻿@page
+@using System.Numerics
+@using System.Linq
+@model Fibonacci_Web_App.Pages.FiboPages.FibonacciRangePageModel
+@{
+    ViewData["Title"] = "Fibonacci get range and sum";
+}
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="post" asp-page-handler="Check" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="startNumber" class="form-label">Start Number</label>
+                    <input asp-for="startNumber" class="form-control" placeholder="Start (inclusive)" />
+                    <span asp-validation-for="startNumber" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="endNumber" class="form-label">End Number</label>
+                    <input asp-for="endNumber" class="form-control" placeholder="End (inclusive)" />
+                    <span asp-validation-for="endNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <button type="submit" class="btn btn-primary">Get Range</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@try
+{
+    var list = Model.ShowFiboInRange().ToList();
+    if (list.Any())
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Fibonacci numbers between @Model.startNumber and @Model.endNumber</h5>
+                <ul class="list-group mb-3">
+                    @foreach (var num in list)
+                    {
+                        <li class="list-group-item">@num</li>
+                    }
+                </ul>
+                <p class="mb-0"><strong>Sum:</strong> @list.Aggregate(BigInteger.Add)</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">No Fibonacci numbers in the specified range.</div>
+    }
+}
+catch
+{
+    <div class="alert alert-danger" role="alert">Invalid range or an error occurred while computing the range.</div>
+}

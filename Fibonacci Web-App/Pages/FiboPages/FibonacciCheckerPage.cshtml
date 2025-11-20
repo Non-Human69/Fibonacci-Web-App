@@ -1,0 +1,36 @@
+﻿@page
+@model Fibonacci_Web_App.Pages.FiboPages.FibonacciCheckerPageModel
+@{
+    ViewData["Title"] = "Fibonacci Checker";
+}
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="post" asp-page-handler="Check" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="mb-3">
+                <label asp-for="inputNumber" class="form-label">Number</label>
+                <input asp-for="inputNumber" class="form-control"
+                    placeholder="Enter integer (BigInteger supported)" />
+                <span asp-validation-for="inputNumber" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Check</button>
+        </form>
+    </div>
+</div>
+
+@if (Model.FibonacciRepository.CheckFibonacciNumber(Model.inputNumber))
+{
+    <div class="alert alert-success" role="alert">
+        <strong class="text-break d-inline-block">@Model.inputNumber</strong> is a Fibonacci number.
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        <strong class="text-break d-inline-block">@Model.inputNumber</strong> is NOT a Fibonacci number.
+    </div>
+}

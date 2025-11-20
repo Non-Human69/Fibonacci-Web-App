@@ -1,0 +1,91 @@
+﻿@using System
+@{
+    var path = Context.Request.Path;
+    var returnUrl = $"{Context.Request.Path}{Context.Request.QueryString}";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Fibonacci_Web_App</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Fibonacci_Web_App.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-page="/Index">
+                    <span class="fw-bold me-2">Fibo</span>
+                    <small class="text-light">Web App</small>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link @(path == "/" || path == "/Index" ? "active" : "")" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(path.StartsWithSegments("/FiboPages/FibonacciCheckerPage") ? "active" : "")" asp-area="" asp-page="/FiboPages/FibonacciCheckerPage">Checker</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(path.StartsWithSegments("/FiboPages/FibonacciSingleGetPage") ? "active" : "")" asp-area="" asp-page="/FiboPages/FibonacciSingleGetPage">Get by Index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(path.StartsWithSegments("/FiboPages/FibonacciCombinationPage") ? "active" : "")" asp-area="" asp-page="/FiboPages/FibonacciCombinationPage">Combination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(path.StartsWithSegments("/FiboPages/FibonacciRangePage") ? "active" : "")" asp-area="" asp-page="/FiboPages/FibonacciRangePage">Range &amp; Sum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(path.StartsWithSegments("/NumberToText") ? "active" : "")" asp-area="" asp-page="/NumberToText">Number to Text</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center">
+                        <a class="btn btn-outline-light btn-sm me-2" asp-page="/FiboPages/FibonacciCheckerPage">Quick Check</a>
+                        <a class="text-light small me-3" asp-area="" asp-page="/Privacy">Privacy</a>
+
+                        <!-- Language switcher: posts to /SetLanguage page which sets the culture cookie and redirects back -->
+                        <form asp-page="/SetLanguage" method="post" class="d-flex align-items-center" style="gap:.35rem;">
+                            <input type="hidden" name="returnUrl" value="@returnUrl" />
+                            <button type="submit" name="culture" value="en" class="btn btn-sm btn-outline-light">EN</button>
+                            <button type="submit" name="culture" value="nl" class="btn btn-sm btn-outline-light">NL</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top bg-light mt-auto">
+        <div class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="text-muted small">
+                &copy; @DateTime.Now.Year - Fibonacci_Web_App
+            </div>
+            <div class="text-muted small">
+                Built with <span class="fw-bold">Razor Pages</span> &middot; .NET 8
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

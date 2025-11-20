@@ -1,0 +1,615 @@
+{
+  "zeroTo99": [
+    "nul",
+    "een",
+    "twee",
+    "drie",
+    "vier",
+    "vijf",
+    "zes",
+    "zeven",
+    "acht",
+    "negen",
+    "tien",
+    "elf",
+    "twaalf",
+    "dertien",
+    "veertien",
+    "vijftien",
+    "zestien",
+    "zeventien",
+    "achttien",
+    "negentien",
+    "twintig",
+    "eenentwintig",
+    "tweeentwintig",
+    "drieentwintig",
+    "vierentwintig",
+    "vijfentwintig",
+    "zesentwintig",
+    "zevenentwintig",
+    "achtentwintig",
+    "negenentwintig",
+    "dertig",
+    "eenendertig",
+    "tweeendertig",
+    "drieendertig",
+    "vierendertig",
+    "vijfendertig",
+    "zesendertig",
+    "zevenendertig",
+    "achtendertig",
+    "negenendertig",
+    "veertig",
+    "eenenveertig",
+    "tweeenveertig",
+    "drieenveertig",
+    "vierenveertig",
+    "vijfenveertig",
+    "zesenveertig",
+    "zevenenveertig",
+    "achtenveertig",
+    "negenenveertig",
+    "vijftig",
+    "eenenvijftig",
+    "tweeenvijftig",
+    "drieenvijftig",
+    "vierenvijftig",
+    "vijfenvijftig",
+    "zesenvijftig",
+    "zevenenvijftig",
+    "achtenvijftig",
+    "negenenvijftig",
+    "zestig",
+    "eenenzestig",
+    "tweeenzestig",
+    "drieenzestig",
+    "vierenzestig",
+    "vijfenzestig",
+    "zesenzestig",
+    "zevenenzestig",
+    "achtenzestig",
+    "negenenzestig",
+    "zeventig",
+    "eenenzeventig",
+    "tweeenzeventig",
+    "drieenzeventig",
+    "vierenzeventig",
+    "vijfenzeventig",
+    "zesenzeventig",
+    "zevenenzeventig",
+    "achtenzeventig",
+    "negenenzeventig",
+    "tachtig",
+    "eenentachtig",
+    "tweeentachtig",
+    "drieentachtig",
+    "vierentachtig",
+    "vijfentachtig",
+    "zesentachtig",
+    "zevenentachtig",
+    "achttentachtig",
+    "negenentachtig",
+    "negentig",
+    "eenennegentig",
+    "tweeennegentig",
+    "drieennegentig",
+    "vierennegentig",
+    "vijfennegentig",
+    "zesennegentig",
+    "zevenennegentig",
+    "achtennegentig",
+    "negenennegentig"
+  ],
+  "hundred": "honderd",
+  "thousand": "duizend",
+  "rest": [
+    {
+      "name": "duizend",
+      "power": 3
+    },
+    {
+      "name": "miljoen",
+      "power": 6
+    },
+    {
+      "name": "miljard",
+      "power": 9
+    },
+    {
+      "name": "biljoen",
+      "power": 12
+    },
+    {
+      "name": "biljard",
+      "power": 15
+    },
+    {
+      "name": "triljoen",
+      "power": 18
+    },
+    {
+      "name": "triljard",
+      "power": 21
+    },
+    {
+      "name": "quadriljoen",
+      "power": 24
+    },
+    {
+      "name": "quadriljard",
+      "power": 27
+    },
+    {
+      "name": "quintiljoen",
+      "power": 30
+    },
+    {
+      "name": "quintiljard",
+      "power": 33
+    },
+    {
+      "name": "sextiljoen",
+      "power": 36
+    },
+    {
+      "name": "sextiljard",
+      "power": 39
+    },
+    {
+      "name": "septiljoen",
+      "power": 42
+    },
+    {
+      "name": "septiljard",
+      "power": 45
+    },
+    {
+      "name": "octiljoen",
+      "power": 48
+    },
+    {
+      "name": "octiljard",
+      "power": 51
+    },
+    {
+      "name": "noniljoen",
+      "power": 54
+    },
+    {
+      "name": "noniljard",
+      "power": 57
+    },
+    {
+      "name": "vigintiljoen",
+      "power": 60
+    },
+    {
+      "name": "vigintiljard",
+      "power": 63
+    },
+    {
+      "name": "unvigintiljoen",
+      "power": 66
+    },
+    {
+      "name": "unvigintiljard",
+      "power": 69
+    },
+    {
+      "name": "duovigintiljoen",
+      "power": 72
+    },
+    {
+      "name": "duovigintiljard",
+      "power": 75
+    },
+    {
+      "name": "trevigintiljoen",
+      "power": 78
+    },
+    {
+      "name": "trevigintiljard",
+      "power": 81
+    },
+    {
+      "name": "quattuorvigintiljoen",
+      "power": 84
+    },
+    {
+      "name": "quattuorvigintiljard",
+      "power": 87
+    },
+    {
+      "name": "quinvigintiljoen",
+      "power": 90
+    },
+    {
+      "name": "quinvigintiljard",
+      "power": 93
+    },
+    {
+      "name": "sexvigintiljoen",
+      "power": 96
+    },
+    {
+      "name": "sexvigintiljard",
+      "power": 99
+    },
+    {
+      "name": "septenvigintiljoen",
+      "power": 102
+    },
+    {
+      "name": "septenvigintiljard",
+      "power": 105
+    },
+    {
+      "name": "octovigintiljoen",
+      "power": 108
+    },
+    {
+      "name": "octovigintiljard",
+      "power": 111
+    },
+    {
+      "name": "novemvigintiljoen",
+      "power": 114
+    },
+    {
+      "name": "novemvigintiljard",
+      "power": 117
+    },
+    {
+      "name": "trigintiljoen",
+      "power": 120
+    },
+    {
+      "name": "trigintiljard",
+      "power": 123
+    },
+    {
+      "name": "untrigintiljoen",
+      "power": 126
+    },
+    {
+      "name": "untrigintiljard",
+      "power": 129
+    },
+    {
+      "name": "duotrigintiljoen",
+      "power": 132
+    },
+    {
+      "name": "duotrigintiljard",
+      "power": 135
+    },
+    {
+      "name": "tretrigintiljoen",
+      "power": 138
+    },
+    {
+      "name": "tretrigintiljard",
+      "power": 141
+    },
+    {
+      "name": "quattuortrigintiljoen",
+      "power": 144
+    },
+    {
+      "name": "quattuortrigintiljard",
+      "power": 147
+    },
+    {
+      "name": "quintrigintiljoen",
+      "power": 150
+    },
+    {
+      "name": "quintrigintiljard",
+      "power": 153
+    },
+    {
+      "name": "sextrigintiljoen",
+      "power": 156
+    },
+    {
+      "name": "sextrigintiljard",
+      "power": 159
+    },
+    {
+      "name": "septentrigintiljoen",
+      "power": 162
+    },
+    {
+      "name": "septentrigintiljard",
+      "power": 165
+    },
+    {
+      "name": "octotrigintiljoen",
+      "power": 168
+    },
+    {
+      "name": "octotrigintiljard",
+      "power": 171
+    },
+    {
+      "name": "novemtrigintiljoen",
+      "power": 174
+    },
+    {
+      "name": "novemtrigintiljard",
+      "power": 177
+    },
+    {
+      "name": "centiljoen",
+      "power": 180
+    },
+    {
+      "name": "centiljard",
+      "power": 183
+    },
+    {
+      "name": "uncentiljoen",
+      "power": 186
+    },
+    {
+      "name": "uncentiljard",
+      "power": 189
+    },
+    {
+      "name": "duocentiljoen",
+      "power": 192
+    },
+    {
+      "name": "duocentiljard",
+      "power": 195
+    },
+    {
+      "name": "trecentiljoen",
+      "power": 198
+    },
+    {
+      "name": "trecentiljard",
+      "power": 201
+    },
+    {
+      "name": "quattuorcentiljoen",
+      "power": 204
+    },
+    {
+      "name": "quattuorcentiljard",
+      "power": 207
+    },
+    {
+      "name": "quincentiljoen",
+      "power": 210
+    },
+    {
+      "name": "quincentiljard",
+      "power": 213
+    },
+    {
+      "name": "sexcentiljoen",
+      "power": 216
+    },
+    {
+      "name": "sexcentiljard",
+      "power": 219
+    },
+    {
+      "name": "septencentiljoen",
+      "power": 222
+    },
+    {
+      "name": "septencentiljard",
+      "power": 225
+    },
+    {
+      "name": "octocentiljoen",
+      "power": 228
+    },
+    {
+      "name": "octocentiljard",
+      "power": 231
+    },
+    {
+      "name": "novemcentiljoen",
+      "power": 234
+    },
+    {
+      "name": "novemcentiljard",
+      "power": 237
+    },
+    {
+      "name": "decicentiljoen",
+      "power": 240
+    },
+    {
+      "name": "decicentiljard",
+      "power": 243
+    },
+    {
+      "name": "undecicentiljoen",
+      "power": 246
+    },
+    {
+      "name": "undecicentiljard",
+      "power": 249
+    },
+    {
+      "name": "duodecicentiljoen",
+      "power": 252
+    },
+    {
+      "name": "duodecicentiljard",
+      "power": 255
+    },
+    {
+      "name": "tredecicentiljoen",
+      "power": 258
+    },
+    {
+      "name": "tredecicentiljard",
+      "power": 261
+    },
+    {
+      "name": "quattuordecicentiljoen",
+      "power": 264
+    },
+    {
+      "name": "quattuordecicentiljard",
+      "power": 267
+    },
+    {
+      "name": "quindecicentiljoen",
+      "power": 270
+    },
+    {
+      "name": "quindecicentiljard",
+      "power": 273
+    },
+    {
+      "name": "sexdecicentiljoen",
+      "power": 276
+    },
+    {
+      "name": "sexdecicentiljard",
+      "power": 279
+    },
+    {
+      "name": "septendecicentiljoen",
+      "power": 282
+    },
+    {
+      "name": "septendecicentiljard",
+      "power": 285
+    },
+    {
+      "name": "octodecicentiljoen",
+      "power": 288
+    },
+    {
+      "name": "octodecicentiljard",
+      "power": 291
+    },
+    {
+      "name": "novemdecicentiljoen",
+      "power": 294
+    },
+    {
+      "name": "novemdecicentiljard",
+      "power": 297
+    },
+    {
+      "name": "viginticentiljoen",
+      "power": 300
+    },
+    {
+      "name": "viginticentiljard",
+      "power": 303
+    },
+    {
+      "name": "unviginticentiljoen",
+      "power": 306
+    },
+    {
+      "name": "unviginticentiljard",
+      "power": 309
+    },
+    {
+      "name": "duoviginticentiljoen",
+      "power": 312
+    },
+    {
+      "name": "duoviginticentiljard",
+      "power": 315
+    },
+    {
+      "name": "treviginticentiljoen",
+      "power": 318
+    },
+    {
+      "name": "treviginticentiljard",
+      "power": 321
+    },
+    {
+      "name": "quattuorviginticentiljoen",
+      "power": 324
+    },
+    {
+      "name": "quattuorviginticentiljard",
+      "power": 327
+    },
+    {
+      "name": "quinviginticentiljoen",
+      "power": 330
+    },
+    {
+      "name": "quinviginticentiljard",
+      "power": 333
+    },
+    {
+      "name": "sexviginticentiljoen",
+      "power": 336
+    },
+    {
+      "name": "sexviginticentiljard",
+      "power": 339
+    },
+    {
+      "name": "septenviginticentiljoen",
+      "power": 342
+    },
+    {
+      "name": "septenviginticentiljard",
+      "power": 345
+    },
+    {
+      "name": "octoviginticentiljoen",
+      "power": 348
+    },
+    {
+      "name": "octoviginticentiljard",
+      "power": 351
+    },
+    {
+      "name": "novemviginticentiljoen",
+      "power": 354
+    },
+    {
+      "name": "novemviginticentiljard",
+      "power": 357
+    },
+    {
+      "name": "triginticentiljoen",
+      "power": 360
+    },
+    {
+      "name": "triginticentiljard",
+      "power": 363
+    },
+    {
+      "name": "untriginticentiljoen",
+      "power": 366
+    },
+    {
+      "name": "untriginticentiljard",
+      "power": 369
+    },
+    {
+      "name": "duotriginticentiljoen",
+      "power": 372
+    },
+    {
+      "name": "duotriginticentiljard",
+      "power": 375
+    },
+    {
+      "name": "tretriginticentiljoen",
+      "power": 378
+    }
+  ],
+  "unnamed": [
+
+  ]
+}

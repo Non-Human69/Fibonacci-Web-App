@@ -1,0 +1,43 @@
+﻿@page
+@model Fibonacci_Web_App.Pages.FiboPages.FibonacciCombinationPageModel
+@{
+    ViewData["Title"] = "Fibonacci get Combination";
+}
+<h1 class="mb-3">@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="post" asp-page-handler="Check" novalidate>
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="mb-3">
+                <label asp-for="inputNumber" class="form-label">Number</label>
+                <input asp-for="inputNumber" class="form-control" placeholder="Enter a non-negative integer" />
+                <span asp-validation-for="inputNumber" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Get Combination</button>
+        </form>
+    </div>
+</div>
+
+@if (Model.inputNumber >= 0)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Combination for @Model.inputNumber</h5>
+            <ol class="list-group list-group-numbered">
+                @foreach (var num in Model.ShowFiboForNumber())
+                {
+                    <li class="list-group-item">@num</li>
+                }
+            </ol>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        The number <strong>@Model.inputNumber</strong> cannot be created using Fibonacci combination.
+    </div>
+}

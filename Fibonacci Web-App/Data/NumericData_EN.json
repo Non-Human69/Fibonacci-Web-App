@@ -1,0 +1,2560 @@
+{
+  "zeroTo99": [
+    "zero",
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine",
+    "ten",
+    "eleven",
+    "twelve",
+    "thirteen",
+    "fourteen",
+    "fifteen",
+    "sixteen",
+    "seventeen",
+    "eighteen",
+    "nineteen",
+    "twenty",
+    "twenty-one",
+    "twenty-two",
+    "twenty-three",
+    "twenty-four",
+    "twenty-five",
+    "twenty-six",
+    "twenty-seven",
+    "twenty-eight",
+    "twenty-nine",
+    "thirty",
+    "thirty-one",
+    "thirty-two",
+    "thirty-three",
+    "thirty-four",
+    "thirty-five",
+    "thirty-six",
+    "thirty-seven",
+    "thirty-eight",
+    "thirty-nine",
+    "forty",
+    "forty-one",
+    "forty-two",
+    "forty-three",
+    "forty-four",
+    "forty-five",
+    "forty-six",
+    "forty-seven",
+    "forty-eight",
+    "forty-nine",
+    "fifty",
+    "fifty-one",
+    "fifty-two",
+    "fifty-three",
+    "fifty-four",
+    "fifty-five",
+    "fifty-six",
+    "fifty-seven",
+    "fifty-eight",
+    "fifty-nine",
+    "sixty",
+    "sixty-one",
+    "sixty-two",
+    "sixty-three",
+    "sixty-four",
+    "sixty-five",
+    "sixty-six",
+    "sixty-seven",
+    "sixty-eight",
+    "sixty-nine",
+    "seventy",
+    "seventy-one",
+    "seventy-two",
+    "seventy-three",
+    "seventy-four",
+    "seventy-five",
+    "seventy-six",
+    "seventy-seven",
+    "seventy-eight",
+    "seventy-nine",
+    "eighty",
+    "eighty-one",
+    "eighty-two",
+    "eighty-three",
+    "eighty-four",
+    "eighty-five",
+    "eighty-six",
+    "eighty-seven",
+    "eighty-eight",
+    "eighty-nine",
+    "ninety",
+    "ninety-one",
+    "ninety-two",
+    "ninety-three",
+    "ninety-four",
+    "ninety-five",
+    "ninety-six",
+    "ninety-seven",
+    "ninety-eight",
+    "ninety-nine"
+  ],
+  "hundred": "hundred",
+  "thousand": "thousand",
+  "rest": [
+    {
+      "name": "thousand",
+      "power": 3
+    },
+    {
+      "name": "million",
+      "power": 6
+    },
+    {
+      "name": "billion",
+      "power": 9
+    },
+    {
+      "name": "trillion",
+      "power": 12
+    },
+    {
+      "name": "quadrillion",
+      "power": 15
+    },
+    {
+      "name": "quintillion",
+      "power": 18
+    },
+    {
+      "name": "sextillion",
+      "power": 21
+    },
+    {
+      "name": "septillion",
+      "power": 24
+    },
+    {
+      "name": "octillion",
+      "power": 27
+    },
+    {
+      "name": "nonillion",
+      "power": 30
+    },
+    {
+      "name": "decillion",
+      "power": 33
+    },
+    {
+      "name": "undecillion",
+      "power": 36
+    },
+    {
+      "name": "duodecillion",
+      "power": 39
+    },
+    {
+      "name": "tredecillion",
+      "power": 42
+    },
+    {
+      "name": "quattuordecillion",
+      "power": 45
+    },
+    {
+      "name": "quindecillion",
+      "power": 48
+    },
+    {
+      "name": "sexdecillion",
+      "power": 51
+    },
+    {
+      "name": "septendecillion",
+      "power": 54
+    },
+    {
+      "name": "octodecillion",
+      "power": 57
+    },
+    {
+      "name": "novemdecillion",
+      "power": 60
+    },
+    {
+      "name": "vigintillion",
+      "power": 63
+    },
+    {
+      "name": "unvigintillion",
+      "power": 66
+    },
+    {
+      "name": "duovigintillion",
+      "power": 69
+    },
+    {
+      "name": "trevigintillion",
+      "power": 72
+    },
+    {
+      "name": "quattuorvigintillion",
+      "power": 75
+    },
+    {
+      "name": "quinvigintillion",
+      "power": 78
+    },
+    {
+      "name": "sexvigintillion",
+      "power": 81
+    },
+    {
+      "name": "septenvigintillion",
+      "power": 84
+    },
+    {
+      "name": "octovigintillion",
+      "power": 87
+    },
+    {
+      "name": "novemvigintillion",
+      "power": 90
+    },
+    {
+      "name": "trigintillion",
+      "power": 93
+    },
+    {
+      "name": "untrigintillion",
+      "power": 96
+    },
+    {
+      "name": "duotrigintillion",
+      "power": 99
+    },
+    {
+      "name": "googol",
+      "power": 100
+    },
+    {
+      "name": "tretrigintillion",
+      "power": 102
+    },
+    {
+      "name": "quattuortrigintillion",
+      "power": 105
+    },
+    {
+      "name": "quintrigintillion",
+      "power": 108
+    },
+    {
+      "name": "sextrigintillion",
+      "power": 111
+    },
+    {
+      "name": "septentrigintillion",
+      "power": 114
+    },
+    {
+      "name": "octotrigintillion",
+      "power": 117
+    },
+    {
+      "name": "novemtrigintillion",
+      "power": 120
+    },
+    {
+      "name": "centillion",
+      "power": 303
+    },
+    {
+      "name": "uncentillion",
+      "power": 306
+    },
+    {
+      "name": "duocentillion",
+      "power": 309
+    },
+    {
+      "name": "trecentillion",
+      "power": 312
+    },
+    {
+      "name": "quattuorcentillion",
+      "power": 315
+    },
+    {
+      "name": "quincentillion",
+      "power": 318
+    },
+    {
+      "name": "sexcentillion",
+      "power": 321
+    },
+    {
+      "name": "septencentillion",
+      "power": 324
+    },
+    {
+      "name": "octocentillion",
+      "power": 327
+    },
+    {
+      "name": "novemcentillion",
+      "power": 330
+    },
+    {
+      "name": "decicentillion",
+      "power": 333
+    },
+    {
+      "name": "undecicentillion",
+      "power": 336
+    },
+    {
+      "name": "duodecicentillion",
+      "power": 339
+    },
+    {
+      "name": "tredecicentillion",
+      "power": 342
+    },
+    {
+      "name": "quattuordecicentillion",
+      "power": 345
+    },
+    {
+      "name": "quindecicentillion",
+      "power": 348
+    },
+    {
+      "name": "sexdecicentillion",
+      "power": 351
+    },
+    {
+      "name": "septendecicentillion",
+      "power": 354
+    },
+    {
+      "name": "octodecicentillion",
+      "power": 357
+    },
+    {
+      "name": "novemdecicentillion",
+      "power": 360
+    },
+    {
+      "name": "viginticentillion",
+      "power": 363
+    },
+    {
+      "name": "unviginticentillion",
+      "power": 366
+    },
+    {
+      "name": "duoviginticentillion",
+      "power": 369
+    },
+    {
+      "name": "treviginticentillion",
+      "power": 372
+    },
+    {
+      "name": "quattuorviginticentillion",
+      "power": 375
+    },
+    {
+      "name": "quinviginticentillion",
+      "power": 378
+    },
+    {
+      "name": "sexviginticentillion",
+      "power": 381
+    },
+    {
+      "name": "septenviginticentillion",
+      "power": 384
+    },
+    {
+      "name": "octoviginticentillion",
+      "power": 387
+    },
+    {
+      "name": "novemviginticentillion",
+      "power": 390
+    },
+    {
+      "name": "triginticentillion",
+      "power": 393
+    },
+    {
+      "name": "untriginticentillion",
+      "power": 396
+    },
+    {
+      "name": "duotriginticentillion",
+      "power": 399
+    },
+    {
+      "name": "tretriginticentillion",
+      "power": 402
+    },
+    {
+      "name": "quattuortriginticentillion",
+      "power": 405
+    },
+    {
+      "name": "quintriginticentillion",
+      "power": 408
+    },
+    {
+      "name": "sextriginticentillion",
+      "power": 411
+    },
+    {
+      "name": "septentriginticentillion",
+      "power": 414
+    },
+    {
+      "name": "octotriginticentillion",
+      "power": 417
+    },
+    {
+      "name": "novemtriginticentillion",
+      "power": 420
+    },
+    {
+      "name": "quadraginticentillion",
+      "power": 423
+    },
+    {
+      "name": "unquadraginticentillion",
+      "power": 426
+    },
+    {
+      "name": "duoquadraginticentillion",
+      "power": 429
+    },
+    {
+      "name": "trequadraginticentillion",
+      "power": 432
+    },
+    {
+      "name": "quattuorquadraginticentillion",
+      "power": 435
+    },
+    {
+      "name": "quinquadraginticentillion",
+      "power": 438
+    },
+    {
+      "name": "sexquadraginticentillion",
+      "power": 441
+    },
+    {
+      "name": "septonquadraginticentillion",
+      "power": 444
+    },
+    {
+      "name": "octoquadraginticentillion",
+      "power": 447
+    },
+    {
+      "name": "novemquadraginticentillion",
+      "power": 450
+    },
+    {
+      "name": "quinquaginticentillion",
+      "power": 453
+    },
+    {
+      "name": "unquinquaginticentillion",
+      "power": 456
+    },
+    {
+      "name": "duoquinquaginticentillion",
+      "power": 459
+    },
+    {
+      "name": "trequinquaginticentillion",
+      "power": 462
+    },
+    {
+      "name": "quattuorquinquaginticentillion",
+      "power": 465
+    },
+    {
+      "name": "quinquinquaginticentillion",
+      "power": 468
+    },
+    {
+      "name": "sexquinquaginticentillion",
+      "power": 471
+    },
+    {
+      "name": "septenquinquaginticentillion",
+      "power": 474
+    },
+    {
+      "name": "octoquinquaginticentillion",
+      "power": 477
+    },
+    {
+      "name": "novemquinquaginticentillion",
+      "power": 480
+    },
+    {
+      "name": "sexaginticentillion",
+      "power": 483
+    },
+    {
+      "name": "unsexaginticentillion",
+      "power": 486
+    },
+    {
+      "name": "duosexaginticentillion",
+      "power": 489
+    },
+    {
+      "name": "tresexaginticentillion",
+      "power": 492
+    },
+    {
+      "name": "quattuorsexaginticentillion",
+      "power": 495
+    },
+    {
+      "name": "quinsexaginticentillion",
+      "power": 498
+    },
+    {
+      "name": "sexsexaginticentillion",
+      "power": 501
+    },
+    {
+      "name": "septensexaginticentillion",
+      "power": 504
+    },
+    {
+      "name": "octosexaginticentillion",
+      "power": 507
+    },
+    {
+      "name": "novemsexaginticentillion",
+      "power": 510
+    },
+
+    {
+      "name": "septuagintacentillion",
+      "power": 513
+    },
+    {
+      "name": "unseptuagintacentillion",
+      "power": 516
+    },
+    {
+      "name": "duoseptuagintacentillion",
+      "power": 519
+    },
+    {
+      "name": "treseptuagintacentillion",
+      "power": 522
+    },
+    {
+      "name": "quattuorseptuagintacentillion",
+      "power": 525
+    },
+    {
+      "name": "quinseptuagintacentillion",
+      "power": 528
+    },
+    {
+      "name": "sexseptuagintacentillion",
+      "power": 531
+    },
+    {
+      "name": "septenseptuagintacentillion",
+      "power": 534
+    },
+    {
+      "name": "octoseptuagintacentillion",
+      "power": 537
+    },
+    {
+      "name": "novemseptuagintacentillion",
+      "power": 540
+    },
+
+    {
+      "name": "octogintacentillion",
+      "power": 543
+    },
+    {
+      "name": "unoctogintacentillion",
+      "power": 546
+    },
+    {
+      "name": "duooctogintacentillion",
+      "power": 549
+    },
+    {
+      "name": "treoctogintacentillion",
+      "power": 552
+    }
+  ],
+  "unnamed": [
+    {
+      "name": "treoctogintacentillion-555",
+      "power": 555
+    },
+    {
+      "name": "treoctogintacentillion-558",
+      "power": 558
+    },
+    {
+      "name": "treoctogintacentillion-561",
+      "power": 561
+    },
+    {
+      "name": "treoctogintacentillion-564",
+      "power": 564
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 567
+    },
+    {
+      "name": "treoctogintacentillion-570",
+      "power": 570
+    },
+    {
+      "name": "sextreoctogintacentillion-573",
+      "power": 573
+    },
+    {
+      "name": "treoctogintacentillion-576",
+      "power": 576
+    },
+    {
+      "name": "treoctogintacentillion-579",
+      "power": 579
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 582
+    },
+    {
+      "name": "treoctogintacentillion-585",
+      "power": 585
+    },
+    {
+      "name": "treoctogintacentillion-588",
+      "power": 588
+    },
+    {
+      "name": "treoctogintacentillion-591",
+      "power": 591
+    },
+    {
+      "name": "quintreoctogintacentillion-594",
+      "power": 594
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 597
+    },
+    {
+      "name": "treoctogintacentillion-600",
+      "power": 600
+    },
+    {
+      "name": "treoctogintacentillion-603",
+      "power": 603
+    },
+    {
+      "name": "treoctogintacentillion-606",
+      "power": 606
+    },
+    {
+      "name": "treoctogintacentillion-609",
+      "power": 609
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 612
+    },
+    {
+      "name": "septtreoctogintacentillion-615",
+      "power": 615
+    },
+    {
+      "name": "treoctogintacentillion-618",
+      "power": 618
+    },
+    {
+      "name": "treoctogintacentillion-621",
+      "power": 621
+    },
+    {
+      "name": "treoctogintacentillion-624",
+      "power": 624
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 627
+    },
+    {
+      "name": "treoctogintacentillion-630",
+      "power": 630
+    },
+    {
+      "name": "treoctogintacentillion-633",
+      "power": 633
+    },
+    {
+      "name": "quintreoctogintacentillion-636",
+      "power": 636
+    },
+    {
+      "name": "treoctogintacentillion-639",
+      "power": 639
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 642
+    },
+    {
+      "name": "treoctogintacentillion-645",
+      "power": 645
+    },
+    {
+      "name": "treoctogintacentillion-648",
+      "power": 648
+    },
+    {
+      "name": "treoctogintacentillion-651",
+      "power": 651
+    },
+    {
+      "name": "treoctogintacentillion-654",
+      "power": 654
+    },
+    {
+      "name": "duotreoctogintacentillion-ii",
+      "power": 657
+    },
+    {
+      "name": "treoctogintacentillion-660",
+      "power": 660
+    },
+    {
+      "name": "treoctogintacentillion-663",
+      "power": 663
+    },
+    {
+      "name": "treoctogintacentillion-666",
+      "power": 666
+    },
+    {
+      "name": "treoctogintacentillion-669",
+      "power": 669
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 672
+    },
+    {
+      "name": "treoctogintacentillion-675",
+      "power": 675
+    },
+    {
+      "name": "quattuortreoctogintacentillion-678",
+      "power": 678
+    },
+    {
+      "name": "treoctogintacentillion-681",
+      "power": 681
+    },
+    {
+      "name": "treoctogintacentillion-684",
+      "power": 684
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 687
+    },
+    {
+      "name": "treoctogintacentillion-690",
+      "power": 690
+    },
+    {
+      "name": "treoctogintacentillion-693",
+      "power": 693
+    },
+    {
+      "name": "treoctogintacentillion-696",
+      "power": 696
+    },
+    {
+      "name": "untreoctogintacentillion-699",
+      "power": 699
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 702
+    },
+    {
+      "name": "treoctogintacentillion-705",
+      "power": 705
+    },
+    {
+      "name": "treoctogintacentillion-708",
+      "power": 708
+    },
+    {
+      "name": "treoctogintacentillion-711",
+      "power": 711
+    },
+    {
+      "name": "treoctogintacentillion-714",
+      "power": 714
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 717
+    },
+    {
+      "name": "quattuortreoctogintacentillion-720",
+      "power": 720
+    },
+    {
+      "name": "treoctogintacentillion-723",
+      "power": 723
+    },
+    {
+      "name": "treoctogintacentillion-726",
+      "power": 726
+    },
+    {
+      "name": "treoctogintacentillion-729",
+      "power": 729
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 732
+    },
+    {
+      "name": "treoctogintacentillion-735",
+      "power": 735
+    },
+    {
+      "name": "treoctogintacentillion-738",
+      "power": 738
+    },
+    {
+      "name": "quattuortreoctogintacentillion-741",
+      "power": 741
+    },
+    {
+      "name": "treoctogintacentillion-744",
+      "power": 744
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 747
+    },
+    {
+      "name": "treoctogintacentillion-750",
+      "power": 750
+    },
+    {
+      "name": "treoctogintacentillion-753",
+      "power": 753
+    },
+    {
+      "name": "treoctogintacentillion-756",
+      "power": 756
+    },
+    {
+      "name": "treoctogintacentillion-759",
+      "power": 759
+    },
+    {
+      "name": "untreoctogintacentillion-beta",
+      "power": 762
+    },
+    {
+      "name": "treoctogintacentillion-765",
+      "power": 765
+    },
+    {
+      "name": "treoctogintacentillion-768",
+      "power": 768
+    },
+    {
+      "name": "treoctogintacentillion-771",
+      "power": 771
+    },
+    {
+      "name": "treoctogintacentillion-774",
+      "power": 774
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 777
+    },
+    {
+      "name": "treoctogintacentillion-780",
+      "power": 780
+    },
+    {
+      "name": "duotreoctogintacentillion-783",
+      "power": 783
+    },
+    {
+      "name": "treoctogintacentillion-786",
+      "power": 786
+    },
+    {
+      "name": "treoctogintacentillion-789",
+      "power": 789
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 792
+    },
+    {
+      "name": "treoctogintacentillion-795",
+      "power": 795
+    },
+    {
+      "name": "treoctogintacentillion-798",
+      "power": 798
+    },
+    {
+      "name": "treoctogintacentillion-801",
+      "power": 801
+    },
+    {
+      "name": "tretreoctogintacentillion-804",
+      "power": 804
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 807
+    },
+    {
+      "name": "treoctogintacentillion-810",
+      "power": 810
+    },
+    {
+      "name": "treoctogintacentillion-813",
+      "power": 813
+    },
+    {
+      "name": "treoctogintacentillion-816",
+      "power": 816
+    },
+    {
+      "name": "treoctogintacentillion-819",
+      "power": 819
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 822
+    },
+    {
+      "name": "quattuortreoctogintacentillion-825",
+      "power": 825
+    },
+    {
+      "name": "treoctogintacentillion-828",
+      "power": 828
+    },
+    {
+      "name": "treoctogintacentillion-831",
+      "power": 831
+    },
+    {
+      "name": "treoctogintacentillion-834",
+      "power": 834
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 837
+    },
+    {
+      "name": "treoctogintacentillion-840",
+      "power": 840
+    },
+    {
+      "name": "treoctogintacentillion-843",
+      "power": 843
+    },
+    {
+      "name": "novtreoctogintacentillion-846",
+      "power": 846
+    },
+    {
+      "name": "treoctogintacentillion-849",
+      "power": 849
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 852
+    },
+    {
+      "name": "treoctogintacentillion-855",
+      "power": 855
+    },
+    {
+      "name": "treoctogintacentillion-858",
+      "power": 858
+    },
+    {
+      "name": "treoctogintacentillion-861",
+      "power": 861
+    },
+    {
+      "name": "treoctogintacentillion-864",
+      "power": 864
+    },
+    {
+      "name": "untreoctogintacentillion-ii",
+      "power": 867
+    },
+    {
+      "name": "treoctogintacentillion-870",
+      "power": 870
+    },
+    {
+      "name": "treoctogintacentillion-873",
+      "power": 873
+    },
+    {
+      "name": "treoctogintacentillion-876",
+      "power": 876
+    },
+    {
+      "name": "treoctogintacentillion-879",
+      "power": 879
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 882
+    },
+    {
+      "name": "treoctogintacentillion-885",
+      "power": 885
+    },
+    {
+      "name": "duotreoctogintacentillion-888",
+      "power": 888
+    },
+    {
+      "name": "treoctogintacentillion-891",
+      "power": 891
+    },
+    {
+      "name": "treoctogintacentillion-894",
+      "power": 894
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 897
+    },
+    {
+      "name": "treoctogintacentillion-900",
+      "power": 900
+    },
+    {
+      "name": "treoctogintacentillion-903",
+      "power": 903
+    },
+    {
+      "name": "treoctogintacentillion-906",
+      "power": 906
+    },
+    {
+      "name": "tretreoctogintacentillion-909",
+      "power": 909
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 912
+    },
+    {
+      "name": "treoctogintacentillion-915",
+      "power": 915
+    },
+    {
+      "name": "treoctogintacentillion-918",
+      "power": 918
+    },
+    {
+      "name": "treoctogintacentillion-921",
+      "power": 921
+    },
+    {
+      "name": "treoctogintacentillion-924",
+      "power": 924
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 927
+    },
+    {
+      "name": "quattuortreoctogintacentillion-930",
+      "power": 930
+    },
+    {
+      "name": "treoctogintacentillion-933",
+      "power": 933
+    },
+    {
+      "name": "treoctogintacentillion-936",
+      "power": 936
+    },
+    {
+      "name": "treoctogintacentillion-939",
+      "power": 939
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 942
+    },
+    {
+      "name": "treoctogintacentillion-945",
+      "power": 945
+    },
+    {
+      "name": "treoctogintacentillion-948",
+      "power": 948
+    },
+    {
+      "name": "septtreoctogintacentillion-951",
+      "power": 951
+    },
+    {
+      "name": "treoctogintacentillion-954",
+      "power": 954
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 957
+    },
+    {
+      "name": "treoctogintacentillion-960",
+      "power": 960
+    },
+    {
+      "name": "treoctogintacentillion-963",
+      "power": 963
+    },
+    {
+      "name": "treoctogintacentillion-966",
+      "power": 966
+    },
+    {
+      "name": "treoctogintacentillion-969",
+      "power": 969
+    },
+    {
+      "name": "untreoctogintacentillion-beta",
+      "power": 972
+    },
+    {
+      "name": "treoctogintacentillion-975",
+      "power": 975
+    },
+    {
+      "name": "treoctogintacentillion-978",
+      "power": 978
+    },
+    {
+      "name": "treoctogintacentillion-981",
+      "power": 981
+    },
+    {
+      "name": "treoctogintacentillion-984",
+      "power": 984
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 987
+    },
+    {
+      "name": "treoctogintacentillion-990",
+      "power": 990
+    },
+    {
+      "name": "octtreoctogintacentillion-993",
+      "power": 993
+    },
+    {
+      "name": "treoctogintacentillion-996",
+      "power": 996
+    },
+    {
+      "name": "treoctogintacentillion-999",
+      "power": 999
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1002
+    },
+    {
+      "name": "treoctogintacentillion-1005",
+      "power": 1005
+    },
+    {
+      "name": "treoctogintacentillion-1008",
+      "power": 1008
+    },
+    {
+      "name": "treoctogintacentillion-1011",
+      "power": 1011
+    },
+    {
+      "name": "duotreoctogintacentillion-1014",
+      "power": 1014
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1017
+    },
+    {
+      "name": "treoctogintacentillion-1020",
+      "power": 1020
+    },
+    {
+      "name": "treoctogintacentillion-1023",
+      "power": 1023
+    },
+    {
+      "name": "treoctogintacentillion-1026",
+      "power": 1026
+    },
+    {
+      "name": "treoctogintacentillion-1029",
+      "power": 1029
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1032
+    },
+    {
+      "name": "untreoctogintacentillion-1035",
+      "power": 1035
+    },
+    {
+      "name": "treoctogintacentillion-1038",
+      "power": 1038
+    },
+    {
+      "name": "treoctogintacentillion-1041",
+      "power": 1041
+    },
+    {
+      "name": "treoctogintacentillion-1044",
+      "power": 1044
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1047
+    },
+    {
+      "name": "treoctogintacentillion-1050",
+      "power": 1050
+    },
+    {
+      "name": "treoctogintacentillion-1053",
+      "power": 1053
+    },
+    {
+      "name": "octtreoctogintacentillion-1056",
+      "power": 1056
+    },
+    {
+      "name": "treoctogintacentillion-1059",
+      "power": 1059
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1062
+    },
+    {
+      "name": "treoctogintacentillion-1065",
+      "power": 1065
+    },
+    {
+      "name": "treoctogintacentillion-1068",
+      "power": 1068
+    },
+    {
+      "name": "treoctogintacentillion-1071",
+      "power": 1071
+    },
+    {
+      "name": "treoctogintacentillion-1074",
+      "power": 1074
+    },
+    {
+      "name": "septtreoctogintacentillion-v",
+      "power": 1077
+    },
+    {
+      "name": "treoctogintacentillion-1080",
+      "power": 1080
+    },
+    {
+      "name": "treoctogintacentillion-1083",
+      "power": 1083
+    },
+    {
+      "name": "treoctogintacentillion-1086",
+      "power": 1086
+    },
+    {
+      "name": "treoctogintacentillion-1089",
+      "power": 1089
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1092
+    },
+    {
+      "name": "treoctogintacentillion-1095",
+      "power": 1095
+    },
+    {
+      "name": "novtreoctogintacentillion-1098",
+      "power": 1098
+    },
+    {
+      "name": "treoctogintacentillion-1101",
+      "power": 1101
+    },
+    {
+      "name": "treoctogintacentillion-1104",
+      "power": 1104
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1107
+    },
+    {
+      "name": "treoctogintacentillion-1110",
+      "power": 1110
+    },
+    {
+      "name": "treoctogintacentillion-1113",
+      "power": 1113
+    },
+    {
+      "name": "treoctogintacentillion-1116",
+      "power": 1116
+    },
+    {
+      "name": "tretreoctogintacentillion-1119",
+      "power": 1119
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 1122
+    },
+    {
+      "name": "treoctogintacentillion-1125",
+      "power": 1125
+    },
+    {
+      "name": "treoctogintacentillion-1128",
+      "power": 1128
+    },
+    {
+      "name": "treoctogintacentillion-1131",
+      "power": 1131
+    },
+    {
+      "name": "treoctogintacentillion-1134",
+      "power": 1134
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 1137
+    },
+    {
+      "name": "sextreoctogintacentillion-1140",
+      "power": 1140
+    },
+    {
+      "name": "treoctogintacentillion-1143",
+      "power": 1143
+    },
+    {
+      "name": "treoctogintacentillion-1146",
+      "power": 1146
+    },
+    {
+      "name": "treoctogintacentillion-1149",
+      "power": 1149
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1152
+    },
+    {
+      "name": "treoctogintacentillion-1155",
+      "power": 1155
+    },
+    {
+      "name": "treoctogintacentillion-1158",
+      "power": 1158
+    },
+    {
+      "name": "duotreoctogintacentillion-1161",
+      "power": 1161
+    },
+    {
+      "name": "treoctogintacentillion-1164",
+      "power": 1164
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1167
+    },
+    {
+      "name": "treoctogintacentillion-1170",
+      "power": 1170
+    },
+    {
+      "name": "treoctogintacentillion-1173",
+      "power": 1173
+    },
+    {
+      "name": "treoctogintacentillion-1176",
+      "power": 1176
+    },
+    {
+      "name": "treoctogintacentillion-1179",
+      "power": 1179
+    },
+    {
+      "name": "tretreoctogintacentillion-prime",
+      "power": 1182
+    },
+    {
+      "name": "treoctogintacentillion-1185",
+      "power": 1185
+    },
+    {
+      "name": "treoctogintacentillion-1188",
+      "power": 1188
+    },
+    {
+      "name": "treoctogintacentillion-1191",
+      "power": 1191
+    },
+    {
+      "name": "treoctogintacentillion-1194",
+      "power": 1194
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1197
+    },
+    {
+      "name": "treoctogintacentillion-1200",
+      "power": 1200
+    },
+    {
+      "name": "septtreoctogintacentillion-1203",
+      "power": 1203
+    },
+    {
+      "name": "treoctogintacentillion-1206",
+      "power": 1206
+    },
+    {
+      "name": "treoctogintacentillion-1209",
+      "power": 1209
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1212
+    },
+    {
+      "name": "treoctogintacentillion-1215",
+      "power": 1215
+    },
+    {
+      "name": "treoctogintacentillion-1218",
+      "power": 1218
+    },
+    {
+      "name": "treoctogintacentillion-1221",
+      "power": 1221
+    },
+    {
+      "name": "sextreoctogintacentillion-1224",
+      "power": 1224
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1227
+    },
+    {
+      "name": "treoctogintacentillion-1230",
+      "power": 1230
+    },
+    {
+      "name": "treoctogintacentillion-1233",
+      "power": 1233
+    },
+    {
+      "name": "treoctogintacentillion-1236",
+      "power": 1236
+    },
+    {
+      "name": "treoctogintacentillion-1239",
+      "power": 1239
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1242
+    },
+    {
+      "name": "sextreoctogintacentillion-1245",
+      "power": 1245
+    },
+    {
+      "name": "treoctogintacentillion-1248",
+      "power": 1248
+    },
+    {
+      "name": "treoctogintacentillion-1251",
+      "power": 1251
+    },
+    {
+      "name": "treoctogintacentillion-1254",
+      "power": 1254
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1257
+    },
+    {
+      "name": "treoctogintacentillion-1260",
+      "power": 1260
+    },
+    {
+      "name": "treoctogintacentillion-1263",
+      "power": 1263
+    },
+    {
+      "name": "sextreoctogintacentillion-1266",
+      "power": 1266
+    },
+    {
+      "name": "treoctogintacentillion-1269",
+      "power": 1269
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1272
+    },
+    {
+      "name": "treoctogintacentillion-1275",
+      "power": 1275
+    },
+    {
+      "name": "treoctogintacentillion-1278",
+      "power": 1278
+    },
+    {
+      "name": "treoctogintacentillion-1281",
+      "power": 1281
+    },
+    {
+      "name": "treoctogintacentillion-1284",
+      "power": 1284
+    },
+    {
+      "name": "octtreoctogintacentillion-beta",
+      "power": 1287
+    },
+    {
+      "name": "treoctogintacentillion-1290",
+      "power": 1290
+    },
+    {
+      "name": "treoctogintacentillion-1293",
+      "power": 1293
+    },
+    {
+      "name": "treoctogintacentillion-1296",
+      "power": 1296
+    },
+    {
+      "name": "treoctogintacentillion-1299",
+      "power": 1299
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1302
+    },
+    {
+      "name": "treoctogintacentillion-1305",
+      "power": 1305
+    },
+    {
+      "name": "quattuortreoctogintacentillion-1308",
+      "power": 1308
+    },
+    {
+      "name": "treoctogintacentillion-1311",
+      "power": 1311
+    },
+    {
+      "name": "treoctogintacentillion-1314",
+      "power": 1314
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1317
+    },
+    {
+      "name": "treoctogintacentillion-1320",
+      "power": 1320
+    },
+    {
+      "name": "treoctogintacentillion-1323",
+      "power": 1323
+    },
+    {
+      "name": "treoctogintacentillion-1326",
+      "power": 1326
+    },
+    {
+      "name": "sextreoctogintacentillion-1329",
+      "power": 1329
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1332
+    },
+    {
+      "name": "treoctogintacentillion-1335",
+      "power": 1335
+    },
+    {
+      "name": "treoctogintacentillion-1338",
+      "power": 1338
+    },
+    {
+      "name": "treoctogintacentillion-1341",
+      "power": 1341
+    },
+    {
+      "name": "treoctogintacentillion-1344",
+      "power": 1344
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 1347
+    },
+    {
+      "name": "quintreoctogintacentillion-1350",
+      "power": 1350
+    },
+    {
+      "name": "treoctogintacentillion-1353",
+      "power": 1353
+    },
+    {
+      "name": "treoctogintacentillion-1356",
+      "power": 1356
+    },
+    {
+      "name": "treoctogintacentillion-1359",
+      "power": 1359
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1362
+    },
+    {
+      "name": "treoctogintacentillion-1365",
+      "power": 1365
+    },
+    {
+      "name": "treoctogintacentillion-1368",
+      "power": 1368
+    },
+    {
+      "name": "quattuortreoctogintacentillion-1371",
+      "power": 1371
+    },
+    {
+      "name": "treoctogintacentillion-1374",
+      "power": 1374
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1377
+    },
+    {
+      "name": "treoctogintacentillion-1380",
+      "power": 1380
+    },
+    {
+      "name": "treoctogintacentillion-1383",
+      "power": 1383
+    },
+    {
+      "name": "treoctogintacentillion-1386",
+      "power": 1386
+    },
+    {
+      "name": "treoctogintacentillion-1389",
+      "power": 1389
+    },
+    {
+      "name": "untreoctogintacentillion-ii",
+      "power": 1392
+    },
+    {
+      "name": "treoctogintacentillion-1395",
+      "power": 1395
+    },
+    {
+      "name": "treoctogintacentillion-1398",
+      "power": 1398
+    },
+    {
+      "name": "treoctogintacentillion-1401",
+      "power": 1401
+    },
+    {
+      "name": "treoctogintacentillion-1404",
+      "power": 1404
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1407
+    },
+    {
+      "name": "treoctogintacentillion-1410",
+      "power": 1410
+    },
+    {
+      "name": "septtreoctogintacentillion-1413",
+      "power": 1413
+    },
+    {
+      "name": "treoctogintacentillion-1416",
+      "power": 1416
+    },
+    {
+      "name": "treoctogintacentillion-1419",
+      "power": 1419
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1422
+    },
+    {
+      "name": "treoctogintacentillion-1425",
+      "power": 1425
+    },
+    {
+      "name": "treoctogintacentillion-1428",
+      "power": 1428
+    },
+    {
+      "name": "treoctogintacentillion-1431",
+      "power": 1431
+    },
+    {
+      "name": "quattuortreoctogintacentillion-1434",
+      "power": 1434
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1437
+    },
+    {
+      "name": "treoctogintacentillion-1440",
+      "power": 1440
+    },
+    {
+      "name": "treoctogintacentillion-1443",
+      "power": 1443
+    },
+    {
+      "name": "treoctogintacentillion-1446",
+      "power": 1446
+    },
+    {
+      "name": "treoctogintacentillion-1449",
+      "power": 1449
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1452
+    },
+    {
+      "name": "septtreoctogintacentillion-1455",
+      "power": 1455
+    },
+    {
+      "name": "treoctogintacentillion-1458",
+      "power": 1458
+    },
+    {
+      "name": "treoctogintacentillion-1461",
+      "power": 1461
+    },
+    {
+      "name": "treoctogintacentillion-1464",
+      "power": 1464
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1467
+    },
+    {
+      "name": "treoctogintacentillion-1470",
+      "power": 1470
+    },
+    {
+      "name": "treoctogintacentillion-1473",
+      "power": 1473
+    },
+    {
+      "name": "octtreoctogintacentillion-1476",
+      "power": 1476
+    },
+    {
+      "name": "treoctogintacentillion-1479",
+      "power": 1479
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1482
+    },
+    {
+      "name": "treoctogintacentillion-1485",
+      "power": 1485
+    },
+    {
+      "name": "treoctogintacentillion-1488",
+      "power": 1488
+    },
+    {
+      "name": "treoctogintacentillion-1491",
+      "power": 1491
+    },
+    {
+      "name": "treoctogintacentillion-1494",
+      "power": 1494
+    },
+    {
+      "name": "sextreoctogintacentillion-prime",
+      "power": 1497
+    },
+    {
+      "name": "treoctogintacentillion-1500",
+      "power": 1500
+    },
+    {
+      "name": "treoctogintacentillion-1503",
+      "power": 1503
+    },
+    {
+      "name": "treoctogintacentillion-1506",
+      "power": 1506
+    },
+    {
+      "name": "treoctogintacentillion-1509",
+      "power": 1509
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1512
+    },
+    {
+      "name": "treoctogintacentillion-1515",
+      "power": 1515
+    },
+    {
+      "name": "septtreoctogintacentillion-1518",
+      "power": 1518
+    },
+    {
+      "name": "treoctogintacentillion-1521",
+      "power": 1521
+    },
+    {
+      "name": "treoctogintacentillion-1524",
+      "power": 1524
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1527
+    },
+    {
+      "name": "treoctogintacentillion-1530",
+      "power": 1530
+    },
+    {
+      "name": "treoctogintacentillion-1533",
+      "power": 1533
+    },
+    {
+      "name": "treoctogintacentillion-1536",
+      "power": 1536
+    },
+    {
+      "name": "quattuortreoctogintacentillion-1539",
+      "power": 1539
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1542
+    },
+    {
+      "name": "treoctogintacentillion-1545",
+      "power": 1545
+    },
+    {
+      "name": "treoctogintacentillion-1548",
+      "power": 1548
+    },
+    {
+      "name": "treoctogintacentillion-1551",
+      "power": 1551
+    },
+    {
+      "name": "treoctogintacentillion-1554",
+      "power": 1554
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1557
+    },
+    {
+      "name": "tretreoctogintacentillion-1560",
+      "power": 1560
+    },
+    {
+      "name": "treoctogintacentillion-1563",
+      "power": 1563
+    },
+    {
+      "name": "treoctogintacentillion-1566",
+      "power": 1566
+    },
+    {
+      "name": "treoctogintacentillion-1569",
+      "power": 1569
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1572
+    },
+    {
+      "name": "treoctogintacentillion-1575",
+      "power": 1575
+    },
+    {
+      "name": "treoctogintacentillion-1578",
+      "power": 1578
+    },
+    {
+      "name": "untreoctogintacentillion-1581",
+      "power": 1581
+    },
+    {
+      "name": "treoctogintacentillion-1584",
+      "power": 1584
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1587
+    },
+    {
+      "name": "treoctogintacentillion-1590",
+      "power": 1590
+    },
+    {
+      "name": "treoctogintacentillion-1593",
+      "power": 1593
+    },
+    {
+      "name": "treoctogintacentillion-1596",
+      "power": 1596
+    },
+    {
+      "name": "treoctogintacentillion-1599",
+      "power": 1599
+    },
+    {
+      "name": "sextreoctogintacentillion-gamma",
+      "power": 1602
+    },
+    {
+      "name": "treoctogintacentillion-1605",
+      "power": 1605
+    },
+    {
+      "name": "treoctogintacentillion-1608",
+      "power": 1608
+    },
+    {
+      "name": "treoctogintacentillion-1611",
+      "power": 1611
+    },
+    {
+      "name": "treoctogintacentillion-1614",
+      "power": 1614
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1617
+    },
+    {
+      "name": "treoctogintacentillion-1620",
+      "power": 1620
+    },
+    {
+      "name": "tretreoctogintacentillion-1623",
+      "power": 1623
+    },
+    {
+      "name": "treoctogintacentillion-1626",
+      "power": 1626
+    },
+    {
+      "name": "treoctogintacentillion-1629",
+      "power": 1629
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1632
+    },
+    {
+      "name": "treoctogintacentillion-1635",
+      "power": 1635
+    },
+    {
+      "name": "treoctogintacentillion-1638",
+      "power": 1638
+    },
+    {
+      "name": "treoctogintacentillion-1641",
+      "power": 1641
+    },
+    {
+      "name": "sextreoctogintacentillion-1644",
+      "power": 1644
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1647
+    },
+    {
+      "name": "treoctogintacentillion-1650",
+      "power": 1650
+    },
+    {
+      "name": "treoctogintacentillion-1653",
+      "power": 1653
+    },
+    {
+      "name": "treoctogintacentillion-1656",
+      "power": 1656
+    },
+    {
+      "name": "treoctogintacentillion-1659",
+      "power": 1659
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1662
+    },
+    {
+      "name": "duotreoctogintacentillion-1665",
+      "power": 1665
+    },
+    {
+      "name": "treoctogintacentillion-1668",
+      "power": 1668
+    },
+    {
+      "name": "treoctogintacentillion-1671",
+      "power": 1671
+    },
+    {
+      "name": "treoctogintacentillion-1674",
+      "power": 1674
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1677
+    },
+    {
+      "name": "treoctogintacentillion-1680",
+      "power": 1680
+    },
+    {
+      "name": "treoctogintacentillion-1683",
+      "power": 1683
+    },
+    {
+      "name": "octtreoctogintacentillion-1686",
+      "power": 1686
+    },
+    {
+      "name": "treoctogintacentillion-1689",
+      "power": 1689
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1692
+    },
+    {
+      "name": "treoctogintacentillion-1695",
+      "power": 1695
+    },
+    {
+      "name": "treoctogintacentillion-1698",
+      "power": 1698
+    },
+    {
+      "name": "treoctogintacentillion-1701",
+      "power": 1701
+    },
+    {
+      "name": "treoctogintacentillion-1704",
+      "power": 1704
+    },
+    {
+      "name": "quintreoctogintacentillion-iv",
+      "power": 1707
+    },
+    {
+      "name": "treoctogintacentillion-1710",
+      "power": 1710
+    },
+    {
+      "name": "treoctogintacentillion-1713",
+      "power": 1713
+    },
+    {
+      "name": "treoctogintacentillion-1716",
+      "power": 1716
+    },
+    {
+      "name": "treoctogintacentillion-1719",
+      "power": 1719
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1722
+    },
+    {
+      "name": "treoctogintacentillion-1725",
+      "power": 1725
+    },
+    {
+      "name": "quintreoctogintacentillion-1728",
+      "power": 1728
+    },
+    {
+      "name": "treoctogintacentillion-1731",
+      "power": 1731
+    },
+    {
+      "name": "treoctogintacentillion-1734",
+      "power": 1734
+    },
+    {
+      "name": "treoctogintacentillion-beta",
+      "power": 1737
+    },
+    {
+      "name": "treoctogintacentillion-1740",
+      "power": 1740
+    },
+    {
+      "name": "treoctogintacentillion-1743",
+      "power": 1743
+    },
+    {
+      "name": "treoctogintacentillion-1746",
+      "power": 1746
+    },
+    {
+      "name": "duotreoctogintacentillion-1749",
+      "power": 1749
+    },
+    {
+      "name": "treoctogintacentillion-prime",
+      "power": 1752
+    },
+    {
+      "name": "treoctogintacentillion-1755",
+      "power": 1755
+    },
+    {
+      "name": "treoctogintacentillion-1758",
+      "power": 1758
+    },
+    {
+      "name": "treoctogintacentillion-1761",
+      "power": 1761
+    },
+    {
+      "name": "treoctogintacentillion-1764",
+      "power": 1764
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1767
+    },
+    {
+      "name": "octtreoctogintacentillion-1770",
+      "power": 1770
+    },
+    {
+      "name": "treoctogintacentillion-1773",
+      "power": 1773
+    },
+    {
+      "name": "treoctogintacentillion-1776",
+      "power": 1776
+    },
+    {
+      "name": "treoctogintacentillion-1779",
+      "power": 1779
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1782
+    },
+    {
+      "name": "treoctogintacentillion-1785",
+      "power": 1785
+    },
+    {
+      "name": "treoctogintacentillion-1788",
+      "power": 1788
+    },
+    {
+      "name": "tretreoctogintacentillion-1791",
+      "power": 1791
+    },
+    {
+      "name": "treoctogintacentillion-1794",
+      "power": 1794
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1797
+    },
+    {
+      "name": "treoctogintacentillion-1800",
+      "power": 1800
+    },
+    {
+      "name": "treoctogintacentillion-1803",
+      "power": 1803
+    },
+    {
+      "name": "treoctogintacentillion-1806",
+      "power": 1806
+    },
+    {
+      "name": "treoctogintacentillion-1809",
+      "power": 1809
+    },
+    {
+      "name": "septtreoctogintacentillion-ii",
+      "power": 1812
+    },
+    {
+      "name": "treoctogintacentillion-1815",
+      "power": 1815
+    },
+    {
+      "name": "treoctogintacentillion-1818",
+      "power": 1818
+    },
+    {
+      "name": "treoctogintacentillion-1821",
+      "power": 1821
+    },
+    {
+      "name": "treoctogintacentillion-1824",
+      "power": 1824
+    },
+    {
+      "name": "treoctogintacentillion-ii",
+      "power": 1827
+    },
+    {
+      "name": "treoctogintacentillion-1830",
+      "power": 1830
+    },
+    {
+      "name": "septtreoctogintacentillion-1833",
+      "power": 1833
+    },
+    {
+      "name": "treoctogintacentillion-1836",
+      "power": 1836
+    },
+    {
+      "name": "treoctogintacentillion-1839",
+      "power": 1839
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1842
+    },
+    {
+      "name": "treoctogintacentillion-1845",
+      "power": 1845
+    },
+    {
+      "name": "treoctogintacentillion-1848",
+      "power": 1848
+    },
+    {
+      "name": "treoctogintacentillion-1851",
+      "power": 1851
+    },
+    {
+      "name": "sextreoctogintacentillion-1854",
+      "power": 1854
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1857
+    },
+    {
+      "name": "treoctogintacentillion-1860",
+      "power": 1860
+    },
+    {
+      "name": "treoctogintacentillion-1863",
+      "power": 1863
+    },
+    {
+      "name": "treoctogintacentillion-1866",
+      "power": 1866
+    },
+    {
+      "name": "treoctogintacentillion-1869",
+      "power": 1869
+    },
+    {
+      "name": "treoctogintacentillion-gamma",
+      "power": 1872
+    },
+    {
+      "name": "septtreoctogintacentillion-1875",
+      "power": 1875
+    },
+    {
+      "name": "treoctogintacentillion-1878",
+      "power": 1878
+    },
+    {
+      "name": "treoctogintacentillion-1881",
+      "power": 1881
+    },
+    {
+      "name": "treoctogintacentillion-1884",
+      "power": 1884
+    },
+    {
+      "name": "treoctogintacentillion-alpha",
+      "power": 1887
+    },
+    {
+      "name": "treoctogintacentillion-1890",
+      "power": 1890
+    },
+    {
+      "name": "treoctogintacentillion-1893",
+      "power": 1893
+    },
+    {
+      "name": "duotreoctogintacentillion-1896",
+      "power": 1896
+    },
+    {
+      "name": "treoctogintacentillion-1899",
+      "power": 1899
+    },
+    {
+      "name": "treoctogintacentillion-iv",
+      "power": 1902
+    },
+    {
+      "name": "treoctogintacentillion-1905",
+      "power": 1905
+    },
+    {
+      "name": "treoctogintacentillion-1908",
+      "power": 1908
+    },
+    {
+      "name": "treoctogintacentillion-1911",
+      "power": 1911
+    },
+    {
+      "name": "treoctogintacentillion-1914",
+      "power": 1914
+    },
+    {
+      "name": "sextreoctogintacentillion-ii",
+      "power": 1917
+    },
+    {
+      "name": "treoctogintacentillion-1920",
+      "power": 1920
+    },
+    {
+      "name": "treoctogintacentillion-1923",
+      "power": 1923
+    },
+    {
+      "name": "treoctogintacentillion-1926",
+      "power": 1926
+    },
+    {
+      "name": "treoctogintacentillion-1929",
+      "power": 1929
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1932
+    },
+    {
+      "name": "treoctogintacentillion-1935",
+      "power": 1935
+    },
+    {
+      "name": "quattuortreoctogintacentillion-1938",
+      "power": 1938
+    },
+    {
+      "name": "treoctogintacentillion-1941",
+      "power": 1941
+    },
+    {
+      "name": "treoctogintacentillion-1944",
+      "power": 1944
+    },
+    {
+      "name": "treoctogintacentillion-v",
+      "power": 1947
+    },
+    {
+      "name": "treoctogintacentillion-1950",
+      "power": 1950
+    },
+    {
+      "name": "treoctogintacentillion-1953",
+      "power": 1953
+    },
+    {
+      "name": "treoctogintacentillion-1956",
+      "power": 1956
+    },
+    {
+      "name": "septtreoctogintacentillion-1959",
+      "power": 1959
+    },
+    {
+      "name": "treoctogintacentillion-iii",
+      "power": 1962
+    },
+    {
+      "name": "treoctogintacentillion-1965",
+      "power": 1965
+    },
+    {
+      "name": "treoctogintacentillion-1968",
+      "power": 1968
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1971",
+      "power": 1971
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1974",
+      "power": 1974
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-iii",
+      "power": 1977
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1980",
+      "power": 1980
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1983",
+      "power": 1983
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1986",
+      "power": 1986
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1989",
+      "power": 1989
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-gamma",
+      "power": 1992
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1995",
+      "power": 1995
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-1998",
+      "power": 1998
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-2001",
+      "power": 2001
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-2004",
+      "power": 2004
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-2007",
+      "power": 2007
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-2010",
+      "power": 2010
+    },
+    {
+      "name": "MegaMultiNumberToHighIndex-2013",
+      "power": 2013
+    }
+  ]
+}
