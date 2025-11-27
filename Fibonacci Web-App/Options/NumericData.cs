@@ -1,4 +1,6 @@
-﻿namespace Fibonacci_Web_App.Models
+﻿using System.Numerics;
+
+namespace Fibonacci_Web_App.Options
 {
     public class NumericData
     {
@@ -13,5 +15,11 @@
     {
         public string Name { get; set; } = string.Empty;
         public int Power { get; set; }
+    }
+
+    public class ScaleValue
+    {
+        public ScaleItem Item { get; set; }
+        public BigInteger Value { get; set; }
     }
 }

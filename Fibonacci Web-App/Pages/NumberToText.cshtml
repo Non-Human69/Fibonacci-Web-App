@@ -10,9 +10,9 @@
             <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
 
             <div class="mb-3 overflow-hidden">
-                <label asp-for="inputNumber" class="form-label">Very big numbers supported up to (9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)</label>
-                <input asp-for="inputNumber" class="form-control" placeholder="Enter Bigintager" />
-                <span asp-validation-for="inputNumber" class="text-danger"></span>
+                <label asp-for="InputNumber" class="form-label">Very big numbers supported up to (999...)</label>
+                <input asp-for="InputNumber" class="form-control" placeholder="Enter Bigintager" />
+                <span asp-validation-for="InputNumber" class="text-danger"></span>
             </div>
 
             <button type="submit" class="btn btn-primary">Get</button>
@@ -22,7 +22,7 @@
 
 @try
 {
-    string? outputStr = Model.NumericWordsConverterRepository.ConvertToWords(Model.inputNumber);
+    string? outputStr = Model.Service.ConvertToWords(Model.InputNumber);
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Result</h5>
@@ -33,6 +33,6 @@
 catch
 {
     <div class="alert alert-danger" role="alert">
-        Could not retrieve wording for <strong>@Model.inputNumber</strong>.
+        Could not retrieve wording for <strong>@Model.InputNumber</strong>.
     </div>
 }

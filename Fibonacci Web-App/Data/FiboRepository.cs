@@ -1,6 +1,9 @@
 ﻿using Fibonacci_Web_App.Interfaces;
 using System.Numerics;
 using System.Collections.Generic;
+using Microsoft.Extensions.Configuration;
+using System;
+
 namespace Fibonacci_Web_App.Repositories
 {
     public class FiboRepository : IFiboRepository
@@ -23,21 +26,30 @@ namespace Fibonacci_Web_App.Repositories
 
         public void LoadFibonacciNumbers()
         {
-            if (maxCount == 1)
+            if (maxCount <= 0)
             {
-                _fiboNumms = new BigInteger[] { 0 };
+                _fiboNumms = Array.Empty<BigInteger>();
                 Console.WriteLine("Generated Fibonacci List is empty");
                 return;
             }
 
-            List<BigInteger> fiboList = new List<BigInteger>(maxCount) { 0, 1 };
-            for (int i = 2; i < maxCount; i++)
+            // Pre-allocate and compute in linear time (fastest for full-range generation)
+            var fiboArray = new BigInteger[maxCount];
+            fiboArray[0] = BigInteger.Zero;
+            if (maxCount > 1)
             {
-                BigInteger nextFibo = fiboList[i - 1] + fiboList[i - 2];
-                fiboList.Add(nextFibo);
-                Console.WriteLine($"Generated Fibonacci number {i}: {nextFibo}");
+                fiboArray[1] = BigInteger.One;
+                for (int i = 2; i < maxCount; i++)
+                {
+                    // Single BigInteger addition per step
+                    fiboArray[i] = fiboArray[i - 1] + fiboArray[i - 2];
+                }
             }
-            _fiboNumms = fiboList.ToArray();
+
+            _fiboNumms = fiboArray;
+
+            // Log one summary (avoid logging each element)
+            Console.WriteLine($"Generated {maxCount} Fibonacci numbers. Last index: {maxCount - 1}, Last value length (digits): {_fiboNumms[^1].ToString().Length}");
         }
 
         public bool CheckFibonacciNumber(BigInteger number)
@@ -52,7 +64,7 @@ namespace Fibonacci_Web_App.Repositories
             {
                 Console.WriteLine($"{number} is a Fibonacci number.");
                 return true;
-            }
+            } 
             else
             {
                 Console.WriteLine($"{number} is not a Fibonacci number.");

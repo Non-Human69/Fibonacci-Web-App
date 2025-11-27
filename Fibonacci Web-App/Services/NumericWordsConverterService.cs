@@ -1,27 +1,49 @@
-﻿using Fibonacci_Web_App.Models;
-using Fibonacci_Web_App.Repositories;
-using System.Collections.Concurrent;
+﻿using Fibonacci_Web_App.Interfaces;
+using Fibonacci_Web_App.Options;
 using System.Numerics;
 using System.Text;
+using System.Globalization;
+using System.Linq;
+using Fibonacci_Web_App.Providers;
 
 namespace Fibonacci_Web_App.Services
 {
     public class NumericWordsConverterService
     {
-        private NumericData _numericData;
-        private List<(ScaleItem Item, BigInteger Value)> _scaleValues;
-        private readonly ConcurrentDictionary<BigInteger, string> _cache;
-        public NumericWordsConverterService(NumericData numericData, List<(ScaleItem Item, BigInteger Value)> scaleValues, ConcurrentDictionary<BigInteger, string> cache)
-        {
-            _numericData = numericData;
-            _scaleValues = scaleValues;
-            _cache = cache;
-        }
+        private readonly NumericCacheService _cache;
+        private readonly NumericData _numericData;
+        private readonly List<(ScaleItem Item, BigInteger Value)> _scaleValues;
 
+        public NumericWordsConverterService(NumericDataProvider provider, NumericCacheService numericCacheService)
+        {
+            _cache = numericCacheService;
+
+            var culture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+            _numericData = provider.GetForCulture(culture);
+
+            var scaleValues = new List<(ScaleItem Item, BigInteger Value)>();
+
+            if (_numericData?.unnamed != null)
+            {
+                scaleValues.AddRange(_numericData.unnamed
+                    .Select(s => (Item: s, Value: BigInteger.Pow(10, s.Power)))
+                    .OrderByDescending(t => t.Item.Power));
+            }
+
+            if (_numericData?.Rest != null)
+            {
+                scaleValues.AddRange(_numericData.Rest
+                    .Select(s => (Item: s, Value: BigInteger.Pow(10, s.Power)))
+                    .OrderByDescending(t => t.Item.Power));
+            }
+
+            _scaleValues = scaleValues;
+        }
+                
         public string ConvertToWords(BigInteger i)
         {
-            // Use cache to reduce repeated work for the same value
-            return _cache.GetOrAdd(i, key =>
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+            return _cache.GetOrAdd(culture, i, key =>
             {
                 var sb = new StringBuilder();
                 AppendWords(key, sb);
@@ -29,7 +51,6 @@ namespace Fibonacci_Web_App.Services
             });
         }
 
-        // Append textual representation of non-negative BigInteger 'i' to StringBuilder 'sb'.
         private void AppendWords(BigInteger i, StringBuilder sb)
         {
             if (i == 0)
@@ -48,34 +69,30 @@ namespace Fibonacci_Web_App.Services
                 return;
             }
 
-            // Properly handle hundreds (100..999) by composing "<leading> hundred [remainder]"
             if (i < 1000)
             {
                 BigInteger hundreds = i / 100;
                 BigInteger remainder = i % 100;
 
                 if (sb.Length > 0) sb.Append(' ');
-                // e.g., "one" + " hundred"
                 sb.Append(_numericData.ZeroTo99[(int)hundreds]);
                 sb.Append(' ').Append(_numericData.Hundred);
 
                 if (remainder > 0)
                 {
                     sb.Append(' ');
-                    Console.WriteLine($"remaining to find {remainder}");
                     AppendWords(remainder, sb);
                 }
                 return;
             }
-            // Stops numbers that go beyond the largest possible scale
-            if (i >= BigInteger.Pow(10, _scaleValues.First().Item.Power + 1))
+
+            if (_scaleValues.Count > 0 && i >= BigInteger.Pow(10, _scaleValues.First().Item.Power + 1))
             {
                 if (sb.Length > 0) sb.Append(' ');
-                sb.Append("To big of a number detected");
+                sb.Append("Too big of a number detected");
                 return;
             }
 
-            // Handle larger scales using precomputed scale values
             foreach (var (Item, Value) in _scaleValues)
             {
                 if (i >= Value)
@@ -89,7 +106,6 @@ namespace Fibonacci_Web_App.Services
 
                     if (remainder > 0)
                     {
-                        Console.WriteLine($"remaining to find out {remainder}");
                         sb.Append(' ');
                         AppendWords(remainder, sb);
                     }
@@ -97,9 +113,7 @@ namespace Fibonacci_Web_App.Services
                 }
             }
 
-            // Fallback: append numeric string if nothing matches (shouldn't normally occur)
             if (sb.Length > 0) sb.Append(' ');
-            Console.WriteLine("error value not handeled");
             sb.Append(i.ToString());
         }
     }
