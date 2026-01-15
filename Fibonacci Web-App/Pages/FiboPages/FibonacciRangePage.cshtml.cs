@@ -1,5 +1,4 @@
-using Fibonacci_Web_App.Interfaces;
-using Fibonacci_Web_App.Repositories;
+using Fibonacci_Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Linq;

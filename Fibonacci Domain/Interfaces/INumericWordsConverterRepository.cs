@@ -1,8 +1,7 @@
-﻿using Fibonacci_Web_App.Options;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
 using System.Numerics;
 
-namespace Fibonacci_Web_App.Interfaces
+namespace Fibonacci_Core.Interfaces
 {
     public interface INumericWordsConverterRepository
     {

@@ -1,18 +1,14 @@
-﻿using Fibonacci_Web_App.Interfaces;
-using System.Numerics;
+﻿using System.Numerics;
 using System.Text;
 using System.Collections.Concurrent;
 using System.Linq;
-using Fibonacci_Web_App.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Localization;
 using System.IO;
 using System;
-using Fibonacci_Web_App.Options;
+using Fibonacci_Core.Interfaces;
+using Fibonacci_Core.Entities;
 using Microsoft.Extensions.Options;
 
-
-namespace Fibonacci_Web_App.Repositories
+namespace Fibonacci_Infrastructure.Data
 {
     public class NumericWordsConverterRepository : INumericWordsConverterRepository
     {

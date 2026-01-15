@@ -1,12 +1,11 @@
-﻿using Fibonacci_Web_App.Interfaces;
-using Fibonacci_Web_App.Options;
-using System.Numerics;
+﻿using System.Numerics;
 using System.Text;
 using System.Globalization;
 using System.Linq;
-using Fibonacci_Web_App.Providers;
+using Fibonacci_Core.Entities;
+using Fibonacci_Core.Interfaces;
 
-namespace Fibonacci_Web_App.Services
+namespace Fibonacci_Core.Services
 {
     public class NumericWordsConverterService
     {
@@ -14,7 +13,7 @@ namespace Fibonacci_Web_App.Services
         private readonly NumericData _numericData;
         private readonly List<(ScaleItem Item, BigInteger Value)> _scaleValues;
 
-        public NumericWordsConverterService(NumericDataProvider provider, NumericCacheService numericCacheService)
+        public NumericWordsConverterService(INumericDataProvider provider, NumericCacheService numericCacheService)
         {
             _cache = numericCacheService;
 

@@ -1,18 +1,18 @@
-﻿using Fibonacci_Web_App.Options;
+﻿using Fibonacci_Core.Entities;
+using Fibonacci_Core.Interfaces;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Text.Json;
 
-namespace Fibonacci_Web_App.Providers
+namespace Fibonacci_Infrastructure.Providers
 {
-    public class NumericDataProvider
+    public class NumericDataProvider : INumericDataProvider
     {
         private readonly ConcurrentDictionary<string, NumericData> _cache = new();
         private readonly string _resourcesPath;
-        private readonly NumericData? _fallback;
-
+        private readonly NumericData _fallback;
+         
         public NumericDataProvider(IHostEnvironment env)
         {
             _resourcesPath = Path.Combine(env.ContentRootPath, "Resources");
@@ -20,15 +20,8 @@ namespace Fibonacci_Web_App.Providers
             var fallbackFile = Path.Combine(_resourcesPath, "NumericData_EN.json");
             if (File.Exists(fallbackFile))
             {
-                try
-                {
-                    var json = File.ReadAllText(fallbackFile);
-                    _fallback = JsonSerializer.Deserialize<NumericData>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-                }
-                catch (System.Exception ex)
-                {
-                    throw new InvalidOperationException("Failed to load fallback numeric data for EN culture.", ex);
-                }
+                var json = File.ReadAllText(fallbackFile);
+                _fallback = JsonSerializer.Deserialize<NumericData>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? throw new InvalidDataException("Failed to load data");
             }
         }
 
@@ -44,8 +37,7 @@ namespace Fibonacci_Web_App.Providers
                 if (!File.Exists(filePath))
                 {
                     Console.WriteLine($"Numeric data file not found for culture {norm}. Using fallback if available.");
-                    if (_fallback != null) return _fallback;
-                    throw new InvalidOperationException($"Numeric data file not found for culture {norm} and no fallback available.");
+                    return _fallback;
                 }
 
                 var json = File.ReadAllText(filePath);

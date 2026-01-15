@@ -1,4 +1,5 @@
-using Fibonacci_Web_App.Interfaces;
+using Fibonacci_Core.Interfaces;
+using Fibonacci_Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Numerics;
@@ -8,7 +9,7 @@ namespace Fibonacci_Web_App.Pages.FiboPages
     public class FibonacciCombinationPageModel : PageModel
     {
         private readonly IFiboRepository fibonacciRepository;
-        public IFiboRepository FibonacciRepository => fibonacciRepository;
+        public FiboRepository FibonacciRepository => (FiboRepository)fibonacciRepository;
 
         [BindProperty]
         public BigInteger inputNumber { get; set; }

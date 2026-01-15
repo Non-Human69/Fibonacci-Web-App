@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Numerics;
 
-namespace Fibonacci_Web_App.Services
+namespace Fibonacci_Core.Services
 {
     public class NumericCacheService
     {

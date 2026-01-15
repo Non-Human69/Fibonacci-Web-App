@@ -1,8 +1,6 @@
-using Fibonacci_Web_App.Interfaces;
-using Fibonacci_Web_App.Options;
-using Fibonacci_Web_App.Providers;
-using Fibonacci_Web_App.Repositories;
-using Fibonacci_Web_App.Services;
+using Fibonacci_Core.Services;
+using Fibonacci_Core.Entities;
+using Fibonacci_Core.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using System.Globalization;
+using Fibonacci_Infrastructure.Data;
+using Fibonacci_Infrastructure.Providers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,11 +24,12 @@ builder.Services.Configure<NumericData>(builder.Configuration);
 builder.Services.AddSingleton<IFiboRepository, FiboRepository>();
 
 // singletons -> once per project
-builder.Services.AddSingleton<NumericDataProvider>();
+builder.Services.AddSingleton<INumericDataProvider, NumericDataProvider>();
 builder.Services.AddSingleton<NumericCacheService>();
 
 // scopeds -> once per http request
 builder.Services.AddScoped<NumericWordsConverterService>();
+
 
 // Localization configuration (query-string first)
 var supportedCultures = new[] { new CultureInfo("en"), new CultureInfo("nl"), new CultureInfo("de") };

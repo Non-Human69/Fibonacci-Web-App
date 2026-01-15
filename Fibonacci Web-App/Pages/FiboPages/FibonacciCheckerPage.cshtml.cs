@@ -1,8 +1,7 @@
-using Fibonacci_Web_App.Interfaces;
-using Fibonacci_Web_App.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Numerics;
+using Fibonacci_Core.Interfaces;
 
 namespace Fibonacci_Web_App.Pages.FiboPages
 {

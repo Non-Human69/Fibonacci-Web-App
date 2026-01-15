@@ -1,7 +1,6 @@
-﻿using Fibonacci_Web_App.Interfaces;
-using System.Numerics;
+﻿using System.Numerics;
 
-namespace Fibonacci_Web_App.Services
+namespace Fibonacci_Core.Services
 {
     internal static class Validation
     {

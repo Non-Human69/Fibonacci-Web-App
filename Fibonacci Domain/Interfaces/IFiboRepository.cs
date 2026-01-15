@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using System.Collections.Generic;
 
-namespace Fibonacci_Web_App.Interfaces
+namespace Fibonacci_Core.Interfaces
 {
     public interface IFiboRepository
     {

@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace Fibonacci_Web_App.Options
+namespace Fibonacci_Core.Entities
 {
     public class NumericData
     {

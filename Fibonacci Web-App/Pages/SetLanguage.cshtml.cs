@@ -47,6 +47,9 @@ namespace Fibonacci_Web_App.Pages
             var redirectUrl = $"{baseUrl}{separator}culture={culture}";
 
             // Persist the selected culture in a cookie so subsequent requests keep it.
+            // This cookie is used by the CookieRequestCultureProvider and will be set when the next http request is made.
+            // Then the localization middleware will read it and set the culture accordingly.
+            // Code to get the cookie value format: var culture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
             var cookieValue = CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture));
             Response.Cookies.Append(
                 CookieRequestCultureProvider.DefaultCookieName,

@@ -1,10 +1,10 @@
-﻿using Fibonacci_Web_App.Interfaces;
+﻿using Microsoft.Extensions.Configuration;
 using System.Numerics;
-using System.Collections.Generic;
-using Microsoft.Extensions.Configuration;
-using System;
+using Fibonacci_Core.Interfaces;
+using Microsoft.Extensions.Primitives; // Required for IConfiguration
+using System.Linq; // For .Contains
 
-namespace Fibonacci_Web_App.Repositories
+namespace Fibonacci_Infrastructure.Data
 {
     public class FiboRepository : IFiboRepository
     {
@@ -14,10 +14,10 @@ namespace Fibonacci_Web_App.Repositories
 
         public FiboRepository(IConfiguration configuration)
         {
-            maxCount = configuration?.GetValue<int>("MaxCount") ?? 100;
+            // FIX: Use ConfigurationBinder.GetValue<T> directly with the correct using
+            maxCount = configuration.GetValue<int>("MaxCount", 100);
             if (maxCount < 0) throw new ArgumentOutOfRangeException(nameof(maxCount), "maxCount must be non-negative.");
 
-            // Ensure numbers are loaded once when the repository instance is created
             if (_fiboNumms.Length == 0)
             {
                 LoadFibonacciNumbers();
@@ -33,7 +33,6 @@ namespace Fibonacci_Web_App.Repositories
                 return;
             }
 
-            // Pre-allocate and compute in linear time (fastest for full-range generation)
             var fiboArray = new BigInteger[maxCount];
             fiboArray[0] = BigInteger.Zero;
             if (maxCount > 1)
@@ -41,14 +40,12 @@ namespace Fibonacci_Web_App.Repositories
                 fiboArray[1] = BigInteger.One;
                 for (int i = 2; i < maxCount; i++)
                 {
-                    // Single BigInteger addition per step
                     fiboArray[i] = fiboArray[i - 1] + fiboArray[i - 2];
                 }
             }
 
             _fiboNumms = fiboArray;
 
-            // Log one summary (avoid logging each element)
             Console.WriteLine($"Generated {maxCount} Fibonacci numbers. Last index: {maxCount - 1}, Last value length (digits): {_fiboNumms[^1].ToString().Length}");
         }
 
