@@ -1,9 +1,10 @@
-﻿using System.Collections.Concurrent;
+﻿using Fibonacci_Core.Interfaces;
+using System.Collections.Concurrent;
 using System.Numerics;
 
 namespace Fibonacci_Core.Services
 {
-    public class NumericCacheService
+    public class NumericCacheService : INumericCacheService
     {
         // composite key "{culture}|{number}"
         private readonly ConcurrentDictionary<string, string> _cache;

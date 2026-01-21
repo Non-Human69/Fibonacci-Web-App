@@ -7,13 +7,13 @@ using Fibonacci_Core.Interfaces;
 
 namespace Fibonacci_Core.Services
 {
-    public class NumericWordsConverterService
+    public class NumericWordsConverterService : INumericWordsConverterService
     {
-        private readonly NumericCacheService _cache;
+        private readonly INumericCacheService _cache;
         private readonly NumericData _numericData;
         private readonly List<(ScaleItem Item, BigInteger Value)> _scaleValues;
 
-        public NumericWordsConverterService(INumericDataProvider provider, NumericCacheService numericCacheService)
+        public NumericWordsConverterService(INumericDataProvider provider, INumericCacheService numericCacheService)
         {
             _cache = numericCacheService;
 
@@ -41,7 +41,7 @@ namespace Fibonacci_Core.Services
                 
         public string ConvertToWords(BigInteger i)
         {
-            var culture = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+            var culture = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
             return _cache.GetOrAdd(culture, i, key =>
             {
                 var sb = new StringBuilder();

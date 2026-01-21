@@ -1,3 +1,4 @@
+using Fibonacci_Core.Interfaces;
 using Fibonacci_Core.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -7,15 +8,15 @@ namespace Fibonacci_Web_App.Pages
 {
     public class NumberToTextModel : PageModel
     {
-        private readonly NumericWordsConverterService _service;
+        private readonly INumericWordsConverterService _service;
 
         [BindProperty]
         public BigInteger InputNumber { get; set; }
 
         // Expose for view if needed (read-only)
-        public NumericWordsConverterService Service => _service;
+        public INumericWordsConverterService Service => _service;
 
-        public NumberToTextModel(NumericWordsConverterService numericWordsConverterService)
+        public NumberToTextModel(INumericWordsConverterService numericWordsConverterService)
         {
             _service = numericWordsConverterService;
         }

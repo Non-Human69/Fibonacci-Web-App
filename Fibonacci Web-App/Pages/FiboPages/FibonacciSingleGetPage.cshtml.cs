@@ -10,12 +10,12 @@ namespace Fibonacci_Web_App.Pages.FiboPages
     {
         private readonly IFiboRepository fibonacciRepository;
         public IFiboRepository FibonacciRepository => fibonacciRepository;
-        public NumericWordsConverterService service { get; }
+        public INumericWordsConverterService service { get; }
 
         [BindProperty]
         public BigInteger inputNumber { get; set; }
 
-        public FibonacciSingleGetPageModel(IFiboRepository fibonacciRepository, NumericWordsConverterService numericWordsConverterService)
+        public FibonacciSingleGetPageModel(IFiboRepository fibonacciRepository, INumericWordsConverterService numericWordsConverterService)
         {
             this.fibonacciRepository = fibonacciRepository;
             this.service = numericWordsConverterService;

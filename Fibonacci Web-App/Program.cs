@@ -25,10 +25,10 @@ builder.Services.AddSingleton<IFiboRepository, FiboRepository>();
 
 // singletons -> once per project
 builder.Services.AddSingleton<INumericDataProvider, NumericDataProvider>();
-builder.Services.AddSingleton<NumericCacheService>();
+builder.Services.AddSingleton<INumericCacheService, NumericCacheService>();
 
 // scopeds -> once per http request
-builder.Services.AddScoped<NumericWordsConverterService>();
+builder.Services.AddScoped<INumericWordsConverterService, NumericWordsConverterService>();
 
 
 // Localization configuration (query-string first)
